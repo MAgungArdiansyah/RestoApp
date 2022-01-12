@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "666377732806",
+    "project_id": "resto-a13dc",
+    "storage_bucket": "resto-a13dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666377732806:android:9340b7b94852e440f88dc7",
+        "android_client_info": {
+          "package_name": "com.example.resto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666377732806-7jklhctuis2i3l231hmv2vkp4fbefiit.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdvGzNfrtjIE2o0KA-TdQZFL3FenB7XnI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666377732806-7jklhctuis2i3l231hmv2vkp4fbefiit.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
