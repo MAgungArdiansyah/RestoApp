@@ -2,8 +2,11 @@ import 'dart:ffi';
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:resto/screen/homepage/mainbody.dart';
+import 'package:resto/services/auth.dart';
 import 'package:resto/style/style.dart';
 
+import 'register.dart';
 import 'widget/blur.dart';
 
 class LoginPage extends StatefulWidget {
@@ -14,29 +17,16 @@ class LoginPage extends StatefulWidget {
 }
 
 class _LoginPageState extends State<LoginPage> {
-  final _emailController = TextEditingController();
-  final _passController = TextEditingController();
+  final AuthServices _authServices = AuthServices();
+  final _checkemail = GlobalKey<FormState>();
+  final _checkpass = GlobalKey<FormState>();
 
   bool _isPassVisible = true;
+  String email = '';
+  String password = '';
+  String name = '';
 
-
-  @override
-  void initState() {
-    super.initState();
-
-    _emailController.addListener(() { });
-    _passController.addListener(() { });
-  }
-
-  @override
-  void dispose() {
-    
-    _emailController.dispose();
-    _passController.dispose();
-
-    super.dispose();
-  }
-
+ 
   @override
   Widget build(BuildContext context) {
     final Size _size = MediaQuery.of(context).size;
@@ -85,69 +75,110 @@ class _LoginPageState extends State<LoginPage> {
                           SizedBox(
                             height: _size.height * 0.04,
                           ),
-                          TextField(
-                            style: lightTheme.subtitle1,
-                            decoration: InputDecoration(
-                              labelText: 'E-mail',
-                              labelStyle: lightTheme.subtitle1,
-                              suffixIcon: _emailController.text.isEmpty
-                                  ? Container(width: 0)
-                                  : IconButton(
-                                      icon: Icon(
-                                        Icons.close_rounded,
-                                        color: secondaryColor,
-                                      ),
-                                      onPressed: () => _emailController.clear(),
-                                    ),
-                              enabledBorder: OutlineInputBorder(
-                                borderRadius: BorderRadius.circular(15),
-                                borderSide: const BorderSide(
-                                    color: primaryColor, width: 2.0),
+                          Form(
+                            key: _checkemail,
+                            child: TextFormField(
+                              style: lightTheme.subtitle1,
+                              decoration: InputDecoration(
+                                labelText: 'E-mail',
+                                labelStyle: lightTheme.subtitle1,
+                                errorStyle: lightTheme.subtitle2,
+                                enabledBorder: OutlineInputBorder(
+                                  borderRadius: BorderRadius.circular(15),
+                                  borderSide: const BorderSide(
+                                      color: primaryColor, width: 2.0),
+                                ),
+                                focusedBorder: OutlineInputBorder(
+                                  borderRadius: BorderRadius.circular(15),
+                                  borderSide: BorderSide(
+                                      color: secondaryColor, width: 2.0),
+                                ),
+                                focusedErrorBorder: OutlineInputBorder(
+                                  borderRadius: BorderRadius.circular(15),
+                                  borderSide: const BorderSide(
+                                      color: errorColor, width: 2.0),
+                                ),
+                                errorBorder: OutlineInputBorder(
+                                  borderRadius: BorderRadius.circular(15),
+                                  borderSide: const BorderSide(
+                                      color: errorColor, width: 2.0),
+                                ),
                               ),
-                              focusedBorder: OutlineInputBorder(
-                                borderRadius: BorderRadius.circular(15),
-                                borderSide:
-                                    BorderSide(color: secondaryColor, width: 2.0),
-                              ),
+                              onChanged: (value) {
+                                setState(() {
+                                  email = value;
+                                });
+                              },
+                              validator: (value) {
+                                if (value!.isEmpty) {
+                                  return 'Please enter your e-mail';
+                                } else {
+                                  return null;
+                                }
+                              },
+                              keyboardType: TextInputType.emailAddress,
+                              textInputAction: TextInputAction.done,
                             ),
-                            controller: _emailController,
-                            keyboardType: TextInputType.emailAddress,
-                            textInputAction: TextInputAction.done,
                           ),
                           SizedBox(
                             height: _size.height * 0.03,
                           ),
-                          TextField(
-                            style: lightTheme.subtitle1,
-                            decoration: InputDecoration(
-                              labelText: 'Password',
-                              labelStyle: lightTheme.subtitle1,
-                              suffixIcon: IconButton(
-                                icon: Icon(
-                                  _isPassVisible ? Icons.visibility_off : Icons.visibility,
-                                  color: secondaryColor,
+                          Form(
+                            key: _checkpass,
+                            child: TextFormField(
+                              obscureText: _isPassVisible,
+                              style: lightTheme.subtitle1,
+                              decoration: InputDecoration(
+                                labelText: 'Password',
+                                labelStyle: lightTheme.subtitle1,
+                                errorStyle: lightTheme.subtitle2,
+                                suffixIcon: IconButton(
+                                  icon: Icon(
+                                    _isPassVisible
+                                        ? Icons.visibility_off
+                                        : Icons.visibility,
+                                    color: secondaryColor,
+                                  ),
+                                  onPressed: () => setState(() {
+                                    _isPassVisible = !_isPassVisible;
+                                  }),
                                 ),
-                                onPressed: () => setState(() {
-                                  _isPassVisible = !_isPassVisible;
-                                }),
+                                enabledBorder: OutlineInputBorder(
+                                  borderRadius: BorderRadius.circular(15),
+                                  borderSide: const BorderSide(
+                                      color: primaryColor, width: 2.0),
+                                ),
+                                focusedBorder: OutlineInputBorder(
+                                  borderRadius: BorderRadius.circular(15),
+                                  borderSide: BorderSide(
+                                      color: secondaryColor, width: 2.0),
+                                ),
+                                focusedErrorBorder: OutlineInputBorder(
+                                  borderRadius: BorderRadius.circular(15),
+                                  borderSide: const BorderSide(
+                                      color: errorColor, width: 2.0),
+                                ),
+                                errorBorder: OutlineInputBorder(
+                                  borderRadius: BorderRadius.circular(15),
+                                  borderSide: const BorderSide(
+                                      color: errorColor, width: 2.0),
+                                ),
                               ),
-                              enabledBorder: OutlineInputBorder(
-                                borderRadius: BorderRadius.circular(15),
-                                borderSide: const BorderSide(
-                                    color: primaryColor, width: 2.0),
-                              ),
-                              focusedBorder: OutlineInputBorder(
-                                borderRadius: BorderRadius.circular(15),
-                                borderSide:
-                                    BorderSide(color: secondaryColor, width: 2.0),
-                              ),
-                              
+                              onChanged: (value) {
+                                setState(() {
+                                  password = value;
+                                });
+                              },
+                              validator: (value) {
+                                if (value!.isEmpty) {
+                                  return 'Please enter your password';
+                                } else {
+                                  return null;
+                                }
+                              },
+                              textInputAction: TextInputAction.done,
                             ),
-                            controller: _passController,
-                            obscureText: _isPassVisible,
-                            textInputAction: TextInputAction.done,
-                          ),
-                          
+                          ),                          
                           Row(
                             mainAxisAlignment: MainAxisAlignment.end,
                             children: [
@@ -168,9 +199,15 @@ class _LoginPageState extends State<LoginPage> {
                                     borderRadius: BorderRadius.circular(10)
                                   )
                                 ),
-                                onPressed: () {
-                                  print(_passController.text);
-                                  print(_emailController.text);
+                                onPressed: () async {
+                                  if (
+                                    _checkemail.currentState!.validate()&&
+                                    _checkpass.currentState!.validate()
+                                    ) {
+                                    dynamic result = await _authServices.signEmailPassword(email, password);
+                                    print(result.toString());
+                                    Navigator.push(context, MaterialPageRoute(builder: (context) => HomePage()));
+                                  }
                                   
                                 },
                                 child: Text(
@@ -186,7 +223,9 @@ class _LoginPageState extends State<LoginPage> {
                                 style: lightTheme.bodyText2,
                               ),
                               TextButton(
-                                  onPressed: () {},
+                                  onPressed: () {
+                                    Navigator.push(context, MaterialPageRoute(builder: (context) => RegisterPage()));
+                                  },
                                   child: Text(
                                     'Sign Up',
                                   ))

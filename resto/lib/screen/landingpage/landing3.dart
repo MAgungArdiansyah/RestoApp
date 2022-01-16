@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:resto/screen/loginregister/register.dart';
 import 'package:resto/style/style.dart';
 
 class LandingPage3 extends StatelessWidget {
@@ -69,7 +70,7 @@ class LandingPage3 extends StatelessWidget {
                                       BorderRadius.all(Radius.circular(50))),
                             ),
                             onPressed: () {
-                              
+                              Navigator.push(context, MaterialPageRoute(builder: (context) => RegisterPage()));
                             },
                             child: const Text('Next'),
                             ),

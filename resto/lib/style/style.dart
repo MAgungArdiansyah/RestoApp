@@ -3,6 +3,8 @@ import 'package:google_fonts/google_fonts.dart';
 
 const Color primaryColor = Colors.white;
 final Color secondaryColor = Colors.green.shade500;
+const Color errorColor = Colors.red;
+
 
 
 final TextTheme lightTheme = TextTheme(
@@ -47,7 +49,7 @@ final TextTheme lightTheme = TextTheme(
     letterSpacing: 0.15
   ),
   subtitle2: GoogleFonts.poppins(
-    color: Colors.white,
+    color: Colors.red,
     fontSize: 13,
     fontWeight: FontWeight.w500,
     letterSpacing: 0.1

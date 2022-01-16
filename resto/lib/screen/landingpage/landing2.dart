@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:resto/screen/loginregister/register.dart';
 import 'package:resto/style/style.dart';
 
 import 'landing3.dart';
@@ -57,7 +58,7 @@ class LandingPage2 extends StatelessWidget {
                     children: [
                       TextButton(
                         onPressed: () {
-                          Navigator.pop(context);
+                         Navigator.push(context, MaterialPageRoute(builder: (context) => RegisterPage()));;
                         }, 
                         child: Text('Skip')),
                       SizedBox(
