@@ -2,7 +2,7 @@ import 'dart:ffi';
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:resto/screen/homepage/mainbody.dart';
+import 'package:resto/screen/homepage/homepage.dart';
 import 'package:resto/services/auth.dart';
 import 'package:resto/style/style.dart';
 
@@ -184,7 +184,7 @@ class _LoginPageState extends State<LoginPage> {
                             children: [
                               TextButton(
                                   onPressed: () {},
-                                  child: Text(
+                                  child: const Text(
                                     'Forgot your password?',
                                   )
                               ),

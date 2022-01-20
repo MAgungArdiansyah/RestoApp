@@ -1,0 +1,50 @@
+import 'package:flutter/material.dart';
+import 'package:resto/model/m_restaurant.dart';
+import 'package:resto/style/style.dart';
+
+class HomePage extends StatefulWidget {
+  const HomePage({ Key? key }) : super(key: key);
+
+  @override
+  _HomePageState createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Home Page'),
+      ),
+      body: FutureBuilder<String>(
+        future: DefaultAssetBundle.of(context).loadString('assets/json/local_restaurant.json'),
+        builder: (context, snapshot) {
+          if (snapshot.hasData) {
+            final List<RestaurantElement> restaurant = parseResto(snapshot.data);
+            return ListView.builder(
+              itemCount: restaurant.length,
+              itemBuilder: (contex, index) {
+                return _buildrestaurantItem(context, restaurant[index]);
+              });
+          } else if (snapshot.hasError) {
+            return Text('fail');
+          } else {
+            return CircularProgressIndicator(color: secondaryColor,);
+          }
+        },
+      ),
+    );
+  }
+}
+
+Widget _buildrestaurantItem(BuildContext context, Restaurant restaurant) {
+  return Material(
+    child: ListTile(
+      contentPadding:
+          const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
+      leading: Text(restaurant.pictureId),
+      title: Text(restaurant.name),
+      subtitle: Text(restaurant.id),
+    ),
+  );
+}
