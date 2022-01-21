@@ -3,6 +3,9 @@ import 'package:resto/screen/loginregister/register.dart';
 import 'package:resto/style/style.dart';
 
 class LandingPage3 extends StatelessWidget {
+
+  static const routeName = '/landingPage3';
+
   const LandingPage3({Key? key}) : super(key: key);
 
   @override
@@ -58,7 +61,7 @@ class LandingPage3 extends StatelessWidget {
                         onPressed: () {
                           Navigator.pop(context);
                         }, 
-                        child: Text('Skip')),
+                        child: const Text('Skip')),
                       SizedBox(
                         width: _size.width * 0.3,
                         height: _size.height * 0.06,

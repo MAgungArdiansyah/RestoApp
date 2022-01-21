@@ -3,6 +3,9 @@ import 'package:resto/model/m_restaurant.dart';
 import 'package:resto/style/style.dart';
 
 class HomePage extends StatefulWidget {
+
+  static const routeName = '/home_page';
+  
   const HomePage({ Key? key }) : super(key: key);
 
   @override
@@ -20,11 +23,11 @@ class _HomePageState extends State<HomePage> {
         future: DefaultAssetBundle.of(context).loadString('assets/json/local_restaurant.json'),
         builder: (context, snapshot) {
           if (snapshot.hasData) {
-            final List<RestaurantElement> restaurant = parseResto(snapshot.data);
+            final Restaurant restaurant = restaurantFromJson(snapshot.data!);
             return ListView.builder(
-              itemCount: restaurant.length,
+              itemCount: restaurant.restaurants.length,
               itemBuilder: (contex, index) {
-                return _buildrestaurantItem(context, restaurant[index]);
+                return _buildrestaurantItem(context, restaurant.restaurants[index]);
               });
           } else if (snapshot.hasError) {
             return Text('fail');
@@ -37,12 +40,12 @@ class _HomePageState extends State<HomePage> {
   }
 }
 
-Widget _buildrestaurantItem(BuildContext context, Restaurant restaurant) {
+Widget _buildrestaurantItem(BuildContext context, RestaurantElement restaurant) {
   return Material(
     child: ListTile(
       contentPadding:
           const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
-      leading: Text(restaurant.pictureId),
+      leading: Image.network(restaurant.pictureId),
       title: Text(restaurant.name),
       subtitle: Text(restaurant.id),
     ),

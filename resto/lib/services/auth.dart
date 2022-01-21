@@ -1,9 +1,17 @@
 
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/foundation.dart';
+import 'package:resto/model/m_user.dart';
 
 class AuthServices {
   final FirebaseAuth _auth = FirebaseAuth.instance;
+
+  UserModel? _userFromFirebaseUser(User user) {
+    return user != null ? UserModel(uid: user.uid) : null;
+  }
+
+  Stream<UserModel?> get user {
+    return _auth.authStateChanges().map((User? user) => _userFromFirebaseUser(user!));
+  }
 
   Future register(String email, String password) async {
     try {
@@ -11,7 +19,7 @@ class AuthServices {
       User? user = result.user;
       return user;
     } catch (e) {
-      return null;
+      return e.toString();
     }
   }
 

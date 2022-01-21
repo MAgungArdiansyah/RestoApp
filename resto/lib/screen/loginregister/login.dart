@@ -1,5 +1,4 @@
-import 'dart:ffi';
-import 'dart:ui';
+
 
 import 'package:flutter/material.dart';
 import 'package:resto/screen/homepage/homepage.dart';
@@ -10,6 +9,9 @@ import 'register.dart';
 import 'widget/blur.dart';
 
 class LoginPage extends StatefulWidget {
+
+  static const routeName = '/login';
+
   const LoginPage({Key? key}) : super(key: key);
 
   @override
@@ -17,6 +19,8 @@ class LoginPage extends StatefulWidget {
 }
 
 class _LoginPageState extends State<LoginPage> {
+  
+
   final AuthServices _authServices = AuthServices();
   final _checkemail = GlobalKey<FormState>();
   final _checkpass = GlobalKey<FormState>();
@@ -226,7 +230,7 @@ class _LoginPageState extends State<LoginPage> {
                                   onPressed: () {
                                     Navigator.push(context, MaterialPageRoute(builder: (context) => RegisterPage()));
                                   },
-                                  child: Text(
+                                  child: const Text(
                                     'Sign Up',
                                   ))
                             ],

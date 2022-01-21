@@ -5,6 +5,9 @@ import 'package:resto/style/style.dart';
 import 'landing3.dart';
 
 class LandingPage2 extends StatelessWidget {
+
+  static const routeName = '/landingPage2';
+
   const LandingPage2({Key? key}) : super(key: key);
 
   @override
@@ -58,9 +61,9 @@ class LandingPage2 extends StatelessWidget {
                     children: [
                       TextButton(
                         onPressed: () {
-                         Navigator.push(context, MaterialPageRoute(builder: (context) => RegisterPage()));;
+                         Navigator.push(context, MaterialPageRoute(builder: (context) => RegisterPage()));
                         }, 
-                        child: Text('Skip')),
+                        child: const Text('Skip')),
                       SizedBox(
                         width: _size.width * 0.3,
                         height: _size.height * 0.06,

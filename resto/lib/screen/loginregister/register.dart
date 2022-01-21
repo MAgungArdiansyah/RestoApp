@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:resto/screen/loginregister/widget/blur.dart';
 import 'package:resto/services/auth.dart';
 import 'package:resto/style/style.dart';
@@ -7,6 +6,9 @@ import 'package:resto/style/style.dart';
 import 'login.dart';
 
 class RegisterPage extends StatefulWidget {
+
+  static const routeName = '/register';
+
   const RegisterPage({Key? key}) : super(key: key);
 
   @override
@@ -255,10 +257,10 @@ class _RegisterPageState extends State<RegisterPage> {
                                     SizedBox(
                                       child: Image(
                                           height: _size.height * 0.04,
-                                          image: AssetImage(
+                                          image: const AssetImage(
                                               'assets/images/google.png')),
                                     ),
-                                    Text(
+                                    const Text(
                                       'Continue with google',
                                       style: TextStyle(color: Colors.black),
                                     )
@@ -285,10 +287,10 @@ class _RegisterPageState extends State<RegisterPage> {
                                     SizedBox(
                                       child: Image(
                                           height: _size.height * 0.04,
-                                          image: AssetImage(
+                                          image: const AssetImage(
                                               'assets/images/facebook.png')),
                                     ),
-                                    Text(
+                                    const Text(
                                       'Continue with facebook',
                                       style: TextStyle(color: Colors.black),
                                     )
