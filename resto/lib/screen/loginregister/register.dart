@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:resto/screen/loginregister/widget/blur.dart';
+import 'package:resto/screen/loginregister/widget/customDialog.dart';
 import 'package:resto/services/auth.dart';
 import 'package:resto/style/style.dart';
 
@@ -222,6 +223,8 @@ class _RegisterPageState extends State<RegisterPage> {
                               validator: (value) {
                                 if (value!.isEmpty) {
                                   return 'Please enter your password';
+                                } else if (value.length < 6) {
+                                  return 'Password must have at least 6 characters';
                                 } else {
                                   return null;
                                 }
@@ -314,11 +317,13 @@ class _RegisterPageState extends State<RegisterPage> {
                                     _checkpass.currentState!.validate()
                                     ) {
                                     dynamic result = await _authServices.register(email, password);
-                                    print(result.toString());
+                                    if (result == '[firebase_auth/invalid-email] The email address is badly formatted.') {
+                                      return showDialog(context: context, builder: (context) => CustomDialog());
+                                    } 
                                   }
                                 },
                                 child: Text(
-                                  'Sign In',
+                                  'Sign Up',
                                   style: lightTheme.button,
                                 )),
                           ),
@@ -336,7 +341,7 @@ class _RegisterPageState extends State<RegisterPage> {
                                         MaterialPageRoute(
                                             builder: (context) => LoginPage()));
                                   },
-                                  child: Text(
+                                  child: const Text(
                                     'Sign In',
                                   ))
                             ],
