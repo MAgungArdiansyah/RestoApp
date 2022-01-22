@@ -4,6 +4,7 @@ import 'package:resto/screen/loginregister/widget/blur.dart';
 import 'package:resto/screen/loginregister/widget/customDialog.dart';
 import 'package:resto/screen/loginregister/widget/loading.dart';
 import 'package:resto/services/auth.dart';
+import 'package:resto/services/database.dart';
 import 'package:resto/style/style.dart';
 
 import 'login.dart';
@@ -19,6 +20,7 @@ class RegisterPage extends StatefulWidget {
 
 class _RegisterPageState extends State<RegisterPage> {
   final AuthServices _authServices = AuthServices();
+  final DatabaseServices _databaseServices = DatabaseServices();
   final _checkemail = GlobalKey<FormState>();
   final _checkpass = GlobalKey<FormState>();
   final _checkname = GlobalKey<FormState>();
@@ -219,7 +221,8 @@ class _RegisterPageState extends State<RegisterPage> {
                                                       await _authServices
                                                           .register(
                                                               email, password);
-                                                  print(result);
+
+                                                  
                                                   if (result ==
                                                       '[firebase_auth/invalid-email] The email address is badly formatted.') {
                                                     setState(() {
@@ -268,6 +271,27 @@ class _RegisterPageState extends State<RegisterPage> {
                                                               lottie:
                                                                   'assets/json/fail2.json',
                                                             ));
+                                                  } else {
+                                                    showDialog(
+                                                          context: context,
+                                                          builder: (context) =>
+                                                              CustomDialog(
+                                                                header:
+                                                                    'Succes',
+                                                                detail:
+                                                                    'Your account is created',
+                                                                lottie:
+                                                                    'assets/json/done.json',
+                                                              ));
+                                                    dynamic db =
+                                                        _databaseServices
+                                                            .addUser(result.uid,
+                                                                name, email);
+                                                    if (db == 'done') {
+                                                      setState(() {
+                                                        loading = false;
+                                                      });
+                                                    } 
                                                   }
                                                 }
                                               },

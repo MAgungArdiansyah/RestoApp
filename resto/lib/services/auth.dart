@@ -5,7 +5,7 @@ class AuthServices {
   final FirebaseAuth _auth = FirebaseAuth.instance;
 
   UserModel? _userFromFirebaseUser(User user) {
-    return user != null ? UserModel(uid: user.uid) : null;
+    return user != null ? UserModel(uid: user.uid, email: user.email) : null;
   }
 
   Stream<UserModel?> get user {
@@ -19,7 +19,7 @@ class AuthServices {
       UserCredential? result = await _auth.createUserWithEmailAndPassword(
           email: email, password: password);
       User? user = result.user;
-      return user;
+      return _userFromFirebaseUser(user!);
     } catch (e) {
       return e.toString();
     }

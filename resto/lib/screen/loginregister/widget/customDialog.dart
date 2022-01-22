@@ -42,7 +42,7 @@ class _CustomDialogState extends State<CustomDialog>
     final Size _size = MediaQuery.of(context).size;
 
     return Dialog(
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
       elevation: 0,
       child: Stack(
         clipBehavior: Clip.none,
@@ -54,6 +54,7 @@ class _CustomDialogState extends State<CustomDialog>
                 const EdgeInsets.only(top: 32, bottom: 0, left: 8, right: 8),
             decoration: BoxDecoration(
               color: Colors.black.withOpacity(0.8),
+              borderRadius: BorderRadius.circular(15)
             ),
             child: Column(
               mainAxisSize: MainAxisSize.min,
