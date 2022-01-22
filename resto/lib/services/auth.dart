@@ -1,4 +1,3 @@
-
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:resto/model/m_user.dart';
 
@@ -10,12 +9,15 @@ class AuthServices {
   }
 
   Stream<UserModel?> get user {
-    return _auth.authStateChanges().map((User? user) => _userFromFirebaseUser(user!));
+    return _auth
+        .authStateChanges()
+        .map((User? user) => _userFromFirebaseUser(user!));
   }
 
   Future register(String email, String password) async {
     try {
-      UserCredential? result = await _auth.createUserWithEmailAndPassword(email: email, password: password);
+      UserCredential? result = await _auth.createUserWithEmailAndPassword(
+          email: email, password: password);
       User? user = result.user;
       return user;
     } catch (e) {
@@ -25,13 +27,13 @@ class AuthServices {
 
   Future signEmailPassword(String email, String password) async {
     try {
-      UserCredential result = await _auth.signInWithEmailAndPassword(email: email, password: password);
+      UserCredential result = await _auth.signInWithEmailAndPassword(
+          email: email, password: password);
       User? user = result.user;
       return user;
     } catch (e) {
-      return null;
+      return e.toString();
     }
-
   }
 
   Future signOut() async {

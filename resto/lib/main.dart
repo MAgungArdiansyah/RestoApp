@@ -27,39 +27,26 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSwatch().copyWith(
-          primary: primaryColor,
-          secondary: secondaryColor
-        ),
+        colorScheme: ColorScheme.fromSwatch()
+            .copyWith(primary: primaryColor, secondary: secondaryColor),
         elevatedButtonTheme: ElevatedButtonThemeData(
-          style: ElevatedButton.styleFrom(
-            primary: secondaryColor,
-            
-          )
-        ),
+            style: ElevatedButton.styleFrom(
+          primary: secondaryColor,
+        )),
         textButtonTheme: TextButtonThemeData(
-          style: TextButton.styleFrom(
-            primary: secondaryColor,
-          )
-        ),
-        
-
+            style: TextButton.styleFrom(
+          primary: secondaryColor,
+        )),
       ),
-      initialRoute: LandingPage1.routeName,
+      initialRoute: LoginPage.routeName,
       routes: {
-        HomePage.routeName : (context) => const HomePage(),
-        LandingPage1.routeName : (context) => const LandingPage1(),
-        LandingPage2.routeName : (context) => const LandingPage2(),
-        LandingPage3.routeName : (context) => const LandingPage3(),
-        LoginPage.routeName : (context) => const LoginPage(),
-        RegisterPage.routeName : (context) => const RegisterPage(),
-        
-
+        HomePage.routeName: (context) => const HomePage(),
+        LandingPage1.routeName: (context) => const LandingPage1(),
+        LandingPage2.routeName: (context) => const LandingPage2(),
+        LandingPage3.routeName: (context) => const LandingPage3(),
+        LoginPage.routeName: (context) => const LoginPage(),
+        RegisterPage.routeName: (context) => const RegisterPage(),
       },
     );
   }
 }
-
-
-
-

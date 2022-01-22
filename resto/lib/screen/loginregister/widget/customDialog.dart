@@ -1,12 +1,45 @@
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
 import 'package:resto/style/style.dart';
 
-class CustomDialog extends StatelessWidget {
-  const CustomDialog({Key? key}) : super(key: key);
+class CustomDialog extends StatefulWidget {
+  String header;
+  String detail;
+  String lottie;
+
+  CustomDialog(
+      {Key? key,
+      required this.header,
+      required this.detail,
+      required this.lottie})
+      : super(key: key);
+
+  @override
+  State<CustomDialog> createState() => _CustomDialogState();
+}
+
+class _CustomDialogState extends State<CustomDialog>
+    with SingleTickerProviderStateMixin {
+  late AnimationController controller;
+
+  @override
+  void initState() {
+    super.initState();
+
+    controller =
+        AnimationController(vsync: this, duration: Duration(milliseconds: 900));
+  }
+
+  @override
+  void dispose() {
+    controller.dispose();
+
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
-    Size size = MediaQuery.of(context).size;
+    final Size _size = MediaQuery.of(context).size;
 
     return Dialog(
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
@@ -16,21 +49,22 @@ class CustomDialog extends StatelessWidget {
         alignment: Alignment.topCenter,
         children: [
           Container(
+            width: _size.width,
             padding:
-                const EdgeInsets.only(top: 32, bottom: 12, left: 8, right: 8),
+                const EdgeInsets.only(top: 32, bottom: 0, left: 8, right: 8),
             decoration: BoxDecoration(
-                color: Colors.black.withOpacity(0.8),
+              color: Colors.black.withOpacity(0.8),
             ),
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
                 Text(
-                  'Fail',
+                  widget.header,
                   textAlign: TextAlign.center,
                   style: lightTheme.headline6,
                 ),
                 Text(
-                  'The email address is badly formatted\nPlease check your e-mail',
+                  widget.detail,
                   textAlign: TextAlign.center,
                   style: lightTheme.bodyText2,
                 ),
@@ -42,18 +76,16 @@ class CustomDialog extends StatelessWidget {
               ],
             ),
           ),
-          const Positioned(
+          Positioned(
               top: -28,
               child: CircleAvatar(
-                minRadius: 16,
-                maxRadius: 28,
-                backgroundColor: Colors.grey,
-                child: Icon(
-                  Icons.check,
-                  size: 28,
-                  color: Colors.white,
-                ),
-              ))
+                  minRadius: 16,
+                  maxRadius: 28,
+                  backgroundColor: primaryColor,
+                  child: Lottie.asset(widget.lottie,
+                      controller: controller,
+                      repeat: false,
+                      onLoaded: (composition) => controller.forward())))
         ],
       ),
     );

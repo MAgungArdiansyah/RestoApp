@@ -1,8 +1,7 @@
 import 'dart:convert';
 
-
-
-Restaurant restaurantFromJson(String str) => Restaurant.fromJson(jsonDecode(str));
+Restaurant restaurantFromJson(String str) =>
+    Restaurant.fromJson(jsonDecode(str));
 
 class Restaurant {
   late List<RestaurantElement> restaurants;
@@ -51,8 +50,8 @@ class Menu {
 
   Menu.fromJson(Map<String, dynamic> menu) {
     foods = List<Foods>.from(menu['foods'].map((food) => Foods.fromJson(food)));
-    drinks =
-        List<Drinks>.from(menu['drinks'].map((drink) => Drinks.fromJson(drink)));
+    drinks = List<Drinks>.from(
+        menu['drinks'].map((drink) => Drinks.fromJson(drink)));
   }
 }
 

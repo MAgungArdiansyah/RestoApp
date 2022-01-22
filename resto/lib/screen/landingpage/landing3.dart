@@ -3,7 +3,6 @@ import 'package:resto/screen/loginregister/register.dart';
 import 'package:resto/style/style.dart';
 
 class LandingPage3 extends StatelessWidget {
-
   static const routeName = '/landingPage3';
 
   const LandingPage3({Key? key}) : super(key: key);
@@ -46,7 +45,7 @@ class LandingPage3 extends StatelessWidget {
                 ),
                 Text(
                   'A fruit gives healthy mind but a fruit juice \n gives you a healthy body too',
-                  style: lightTheme.bodyText1,
+                  style: lightTheme.bodyText2,
                   textAlign: TextAlign.center,
                 ),
                 SizedBox(
@@ -58,25 +57,28 @@ class LandingPage3 extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       TextButton(
-                        onPressed: () {
-                          Navigator.pop(context);
-                        }, 
-                        child: const Text('Skip')),
+                          onPressed: () {
+                            Navigator.pop(context);
+                          },
+                          child: const Text('Skip')),
                       SizedBox(
                         width: _size.width * 0.3,
                         height: _size.height * 0.06,
                         child: ElevatedButton(
-                            style: ElevatedButton.styleFrom(
-                              //alignment: ,
-                              shape: const RoundedRectangleBorder(
-                                  borderRadius:
-                                      BorderRadius.all(Radius.circular(50))),
-                            ),
-                            onPressed: () {
-                              Navigator.push(context, MaterialPageRoute(builder: (context) => RegisterPage()));
-                            },
-                            child: const Text('Next'),
-                            ),
+                          style: ElevatedButton.styleFrom(
+                            //alignment: ,
+                            shape: const RoundedRectangleBorder(
+                                borderRadius:
+                                    BorderRadius.all(Radius.circular(50))),
+                          ),
+                          onPressed: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => RegisterPage()));
+                          },
+                          child: const Text('Next'),
+                        ),
                       ),
                     ],
                   ),
@@ -89,5 +91,3 @@ class LandingPage3 extends StatelessWidget {
     );
   }
 }
-
-

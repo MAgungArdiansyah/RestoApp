@@ -3,10 +3,9 @@ import 'package:resto/model/m_restaurant.dart';
 import 'package:resto/style/style.dart';
 
 class HomePage extends StatefulWidget {
-
   static const routeName = '/home_page';
-  
-  const HomePage({ Key? key }) : super(key: key);
+
+  const HomePage({Key? key}) : super(key: key);
 
   @override
   _HomePageState createState() => _HomePageState();
@@ -20,19 +19,23 @@ class _HomePageState extends State<HomePage> {
         title: Text('Home Page'),
       ),
       body: FutureBuilder<String>(
-        future: DefaultAssetBundle.of(context).loadString('assets/json/local_restaurant.json'),
+        future: DefaultAssetBundle.of(context)
+            .loadString('assets/json/local_restaurant.json'),
         builder: (context, snapshot) {
           if (snapshot.hasData) {
             final Restaurant restaurant = restaurantFromJson(snapshot.data!);
             return ListView.builder(
-              itemCount: restaurant.restaurants.length,
-              itemBuilder: (contex, index) {
-                return _buildrestaurantItem(context, restaurant.restaurants[index]);
-              });
+                itemCount: restaurant.restaurants.length,
+                itemBuilder: (contex, index) {
+                  return _buildrestaurantItem(
+                      context, restaurant.restaurants[index]);
+                });
           } else if (snapshot.hasError) {
             return Text('fail');
           } else {
-            return CircularProgressIndicator(color: secondaryColor,);
+            return CircularProgressIndicator(
+              color: secondaryColor,
+            );
           }
         },
       ),
@@ -40,7 +43,8 @@ class _HomePageState extends State<HomePage> {
   }
 }
 
-Widget _buildrestaurantItem(BuildContext context, RestaurantElement restaurant) {
+Widget _buildrestaurantItem(
+    BuildContext context, RestaurantElement restaurant) {
   return Material(
     child: ListTile(
       contentPadding:

@@ -5,7 +5,6 @@ import 'package:resto/style/style.dart';
 import 'landing3.dart';
 
 class LandingPage2 extends StatelessWidget {
-
   static const routeName = '/landingPage2';
 
   const LandingPage2({Key? key}) : super(key: key);
@@ -60,25 +59,31 @@ class LandingPage2 extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       TextButton(
-                        onPressed: () {
-                         Navigator.push(context, MaterialPageRoute(builder: (context) => RegisterPage()));
-                        }, 
-                        child: const Text('Skip')),
+                          onPressed: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => RegisterPage()));
+                          },
+                          child: const Text('Skip')),
                       SizedBox(
                         width: _size.width * 0.3,
                         height: _size.height * 0.06,
                         child: ElevatedButton(
-                            style: ElevatedButton.styleFrom(
-                              //alignment: ,
-                              shape: const RoundedRectangleBorder(
-                                  borderRadius:
-                                      BorderRadius.all(Radius.circular(50))),
-                            ),
-                            onPressed: () {
-                              Navigator.push(context, MaterialPageRoute(builder: (context) => LandingPage3()));
-                            },
-                            child: const Text('Next'),
-                            ),
+                          style: ElevatedButton.styleFrom(
+                            //alignment: ,
+                            shape: const RoundedRectangleBorder(
+                                borderRadius:
+                                    BorderRadius.all(Radius.circular(50))),
+                          ),
+                          onPressed: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => LandingPage3()));
+                          },
+                          child: const Text('Next'),
+                        ),
                       ),
                     ],
                   ),
@@ -91,5 +96,3 @@ class LandingPage2 extends StatelessWidget {
     );
   }
 }
-
-
