@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:resto/screen/homepage/widget/customDialog.dart';
+import 'package:resto/screen/homepage/widget/custom_dialog.dart';
 import 'package:resto/style/style.dart';
 
 class Head extends StatelessWidget {
@@ -29,7 +29,7 @@ class Head extends StatelessWidget {
             onPressed: () {
               showDialog(
                   context: context,
-                  builder: (context) => CustomDialogHome(
+                  builder: (context) => const CustomDialogHome(
                       header: 'Cooming Soon',
                       detail: 'Stay tune guys',
                       lottie: 'assets/json/coming_soon.json'));

@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/services.dart';
-import 'package:resto/screen/homepage/homepage.dart';
-import 'package:resto/screen/accountpage/accountpage.dart';
+import 'package:resto/model/m_restaurant.dart';
+import 'package:resto/screen/detailpage/detail_page.dart';
+import 'package:resto/screen/homepage/home_page.dart';
+import 'package:resto/screen/accountpage/account_page.dart';
 import 'package:resto/screen/landingpage/landing1.dart';
 import 'package:resto/screen/landingpage/landing2.dart';
 import 'package:resto/screen/landingpage/landing3.dart';
@@ -47,7 +49,8 @@ class MyApp extends StatelessWidget {
         LandingPage3.routeName: (context) => const LandingPage3(),
         LoginPage.routeName: (context) => const LoginPage(),
         RegisterPage.routeName: (context) => const RegisterPage(),
-        AccountPage.routeName: (context) => AccountPage()
+        AccountPage.routeName: (context) => const AccountPage(),
+        DeatailPage.routeName: (context) => DeatailPage(restaurantElement: ModalRoute.of(context)?.settings.arguments as RestaurantElement)
       },
     );
   }

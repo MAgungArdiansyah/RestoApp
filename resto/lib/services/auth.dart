@@ -4,7 +4,7 @@ import 'package:resto/model/m_user.dart';
 class AuthServices {
   final FirebaseAuth _auth = FirebaseAuth.instance;
 
-  UserModel? _userFromFirebaseUser(User user) {
+  UserModel? _userFromFirebaseUser(User? user) {
     return user != null ? UserModel(uid: user.uid) : null;
   }
 

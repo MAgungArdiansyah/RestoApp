@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:resto/screen/accountpage/accountpage.dart';
-import 'package:resto/screen/homepage/homepage.dart';
+import 'package:resto/screen/homepage/home_page.dart';
 import 'package:resto/screen/landingpage/landing2.dart';
 import 'package:resto/screen/loginregister/register.dart';
 import 'package:resto/services/auth.dart';
@@ -85,10 +84,7 @@ class BodyLand1 extends StatelessWidget {
                     children: [
                       TextButton(
                           onPressed: () {
-                            Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                    builder: (context) => RegisterPage()));
+                            Navigator.pushNamed(context, RegisterPage.routeName);
                           },
                           child: const Text('Skip')),
                       SizedBox(
@@ -102,7 +98,7 @@ class BodyLand1 extends StatelessWidget {
                                     BorderRadius.all(Radius.circular(50))),
                           ),
                           onPressed: () {
-                            Navigator.pushNamed(
+                            Navigator.pushReplacementNamed(
                                 context, LandingPage2.routeName);
                           },
                           child: const Text('Next'),

@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:resto/model/m_user.dart';
-import 'package:resto/screen/accountpage/accountpage.dart';
-import 'package:resto/screen/homepage/homepage.dart';
+import 'package:resto/screen/accountpage/account_page.dart';
 import 'package:resto/screen/loginregister/widget/blur.dart';
-import 'package:resto/screen/loginregister/widget/customDialog.dart';
+import 'package:resto/screen/loginregister/widget/custom_dialog.dart';
 import 'package:resto/screen/loginregister/widget/loading.dart';
 import 'package:resto/services/auth.dart';
 import 'package:resto/services/database.dart';
@@ -42,7 +40,7 @@ class _RegisterPageState extends State<RegisterPage> {
         stream: AuthServices().user,
         builder: (context, snapshot) {
           if (snapshot.hasData) {
-            return AccountPage();
+            return const AccountPage();
           } else {
             return loading
                 ? const Loading()
@@ -62,7 +60,7 @@ class _RegisterPageState extends State<RegisterPage> {
                             ),
                           ),
                           Padding(
-                            padding: EdgeInsets.all(8.0),
+                            padding: const EdgeInsets.all(8.0),
                             child: buildBlur(
                                 borderRadius: BorderRadius.circular(20),
                                 child: Container(
@@ -126,7 +124,7 @@ class _RegisterPageState extends State<RegisterPage> {
                                                 showDialog(
                                                     context: context,
                                                     builder: (context) =>
-                                                        CustomDialog(
+                                                        const CustomDialog(
                                                             header:
                                                                 'Coming Soon!',
                                                             detail:
@@ -171,7 +169,7 @@ class _RegisterPageState extends State<RegisterPage> {
                                                 showDialog(
                                                     context: context,
                                                     builder: (context) =>
-                                                        CustomDialog(
+                                                        const CustomDialog(
                                                             header:
                                                                 'Coming Soon!',
                                                             detail:
@@ -232,7 +230,7 @@ class _RegisterPageState extends State<RegisterPage> {
                                                     return showDialog(
                                                         context: context,
                                                         builder: (context) =>
-                                                            CustomDialog(
+                                                            const CustomDialog(
                                                               header:
                                                                   'Fail to Sign Up',
                                                               detail:
@@ -248,7 +246,7 @@ class _RegisterPageState extends State<RegisterPage> {
                                                     return showDialog(
                                                         context: context,
                                                         builder: (context) =>
-                                                            CustomDialog(
+                                                            const CustomDialog(
                                                               header:
                                                                   'Fail to Sign Up',
                                                               detail:
@@ -264,7 +262,7 @@ class _RegisterPageState extends State<RegisterPage> {
                                                     return showDialog(
                                                         context: context,
                                                         builder: (context) =>
-                                                            CustomDialog(
+                                                            const CustomDialog(
                                                               header:
                                                                   'Fail to Sign Up',
                                                               detail:
@@ -276,7 +274,7 @@ class _RegisterPageState extends State<RegisterPage> {
                                                     showDialog(
                                                         context: context,
                                                         builder: (context) =>
-                                                            CustomDialog(
+                                                            const CustomDialog(
                                                               header: 'Succes',
                                                               detail:
                                                                   'Your account is created',
@@ -330,7 +328,6 @@ class _RegisterPageState extends State<RegisterPage> {
                       ),
                     ),
                   ));
-            ;
           }
         });
   }

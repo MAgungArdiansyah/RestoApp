@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:resto/screen/accountpage/accountpage.dart';
-import 'package:resto/screen/homepage/homepage.dart';
-import 'package:resto/screen/loginregister/widget/customDialog.dart';
+import 'package:resto/screen/homepage/home_page.dart';
+import 'package:resto/screen/loginregister/widget/custom_dialog.dart';
 import 'package:resto/screen/loginregister/widget/loading.dart';
 import 'package:resto/services/auth.dart';
 import 'package:resto/style/style.dart';
@@ -124,7 +123,6 @@ class _LoginPageState extends State<LoginPage> {
                                                     await _authServices
                                                         .signEmailPassword(
                                                             email, password);
-                                                print(result);
                                                 if (result ==
                                                         '[firebase_auth/invalid-email] The email address is badly formatted.' ||
                                                     result ==
@@ -135,7 +133,7 @@ class _LoginPageState extends State<LoginPage> {
                                                   return showDialog(
                                                       context: context,
                                                       builder: (context) =>
-                                                          CustomDialog(
+                                                          const CustomDialog(
                                                             header:
                                                                 'Fail to Sign In',
                                                             detail:
@@ -151,11 +149,26 @@ class _LoginPageState extends State<LoginPage> {
                                                   return showDialog(
                                                       context: context,
                                                       builder: (context) =>
-                                                          CustomDialog(
+                                                          const CustomDialog(
                                                             header:
                                                                 'Fail to Sign Up',
                                                             detail:
                                                                 'Please check your internet connection',
+                                                            lottie:
+                                                                'assets/json/fail2.json',
+                                                          ));
+                                                } else if (result == '[firebase_auth/user-not-found] There is no user record corresponding to this identifier. The user may have been deleted.') {
+                                                  setState(() {
+                                                    loading = false;
+                                                  });
+                                                  return showDialog(
+                                                      context: context,
+                                                      builder: (context) =>
+                                                          const CustomDialog(
+                                                            header:
+                                                                'Fail to Sign Up',
+                                                            detail:
+                                                                'Sorry, this email is not registered yet',
                                                             lottie:
                                                                 'assets/json/fail2.json',
                                                           ));

@@ -58,7 +58,7 @@ class LandingPage3 extends StatelessWidget {
                     children: [
                       TextButton(
                           onPressed: () {
-                            Navigator.pop(context);
+                            Navigator.pushNamed(context, RegisterPage.routeName);
                           },
                           child: const Text('Skip')),
                       SizedBox(
@@ -72,10 +72,7 @@ class LandingPage3 extends StatelessWidget {
                                     BorderRadius.all(Radius.circular(50))),
                           ),
                           onPressed: () {
-                            Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                    builder: (context) => RegisterPage()));
+                            Navigator.pushReplacementNamed(context, RegisterPage.routeName);
                           },
                           child: const Text('Next'),
                         ),

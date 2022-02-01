@@ -79,7 +79,7 @@
           },
           {
             "name": "Teh manis",
-            "img" : "assets/images/iceTea.jpg",
+            "img" : "assets/images/.jpg",
             "price" : 8.8
           },
           {
@@ -110,63 +110,101 @@
       "menus": {
         "foods": [
           {
-            "name": "Kari kacang dan telur"
+            "name": "Kari kacang dan telur",
+            "img" : "assets/images/cury.jpg",
+            "price" : 32.8
           },
           {
-            "name": "Ikan teri dan roti"
+            "name": "Ikan teri dan roti",
+            "img" : "assets/images/bread.jpg",
+            "price" : 15.9
           },
           {
-            "name": "roket penne"
+            "name": "roket penne",
+            "img" : "assets/images/pie.jpg",
+            "price" : 62.3
           },
           {
-            "name": "Salad lengkeng"
+            "name": "Salad lengkeng",
+            "img" : "assets/images/salad.jpg",
+            "price" : 22.8
           },
           {
-            "name": "Tumis leek"
+            "name": "Tumis leek",
+            "img" : "assets/images/tumis.jpg",
+            "price" : 26.4
           },
           {
-            "name": "Salad yuzu"
+            "name": "Salad yuzu",
+            "img" : "assets/images/saladYuzu.jpg",
+            "price" : 25.9
           },
           {
-            "name": "Sosis squash dan mint"
+            "name": "Sosis squash dan mint",
+            "img" : "assets/images/sosis.jpg",
+            "price" : 36.7
           }
         ],
         "drinks": [
           {
-            "name": "Jus tomat"
+            "name": "Jus tomat",
+            "img" : "assets/images/jusTomat.jpg",
+            "price" : 12.5
           },
           {
-            "name": "Minuman soda"
+            "name": "Minuman soda",
+            "img" : "assets/images/iceSoda.jpg",
+            "price" : 19.5
           },
           {
-            "name": "Jus apel"
+            "name": "Jus apel",
+            "img" : "assets/images/jusApel.jpg",
+            "price" : 12.3
           },
           {
-            "name": "Jus mangga"
+            "name": "Jus mangga",
+            "img" : "assets/images/jusMangga.jpg",
+            "price" : 12.3
           },
           {
-            "name": "Es krim"
+            "name": "Es krim",
+            "img" : "assets/images/iceCream2.jpg",
+            "price" : 12.1
           },
           {
-            "name": "Kopi espresso"
+            "name": "Kopi espresso",
+            "img" : "assets/images/expresso.jpg",
+            "price" : 12.8
           },
           {
-            "name": "Jus alpukat"
+            "name": "Jus alpukat",
+            "img" : "assets/images/jusAlpukat.jpg",
+            "price" : 12.3
           },
           {
-            "name": "Coklat panas"
+            "name": "Coklat panas",
+            "img" : "assets/images/hotChocolate.jpg",
+            "price" : 15.4
           },
           {
-            "name": "Es kopi"
+            "name": "Es kopi",
+            "img" : "assets/images/iceCoffe.jpg",
+            "price" : 10.5
           },
           {
-            "name": "Teh manis"
+            "name": "Teh manis",
+            "img" : "assets/images/iceTea.jpg",
+            "price" : 8.8
           },
           {
-            "name": "Sirup"
+            "name": "Sirup",
+            "img" : "assets/images/sirup.jpg",
+            "price" : 11.6
           },
           {
-            "name": "Jus jeruk"
+            "name": "Jus jeruk",
+            "img" : "assets/images/jusJeruk.jpg",
+            "price" : 12.3
           }
         ]
       }
@@ -181,66 +219,106 @@
       "menus": {
         "foods": [
           {
-            "name": "Salad lengkeng"
+            "name": "Salad lengkeng",
+            "img" : "assets/images/salad.jpg",
+            "price" : 22.8
           },
           {
-            "name": "Sosis squash dan mint"
+            "name": "Sosis squash dan mint",
+            "img" : "assets/images/sosis.jpg",
+            "price" : 36.7
           },
           {
-            "name": "Toastie salmon"
+            "name": "Toastie salmon",
+            "img" : "assets/images/salmon.jpg",
+            "price" : 41.7
           },
           {
-            "name": "Salad yuzu"
+            "name": "Salad yuzu",
+            "img" : "assets/images/saladYuzu.jpg",
+            "price" : 25.9
           },
           {
-            "name": "Matzo farfel"
+            "name": "Matzo farfel",
+            "img" : "assets/images/matzo.jpg",
+            "price" : 32.7
           },
           {
-            "name": "Kari terong"
+            "name": "Kari terong",
+            "img" : "assets/images/curryEggplant.jpg",
+            "price" : 24.7
           },
           {
-            "name": "roket penne"
+            "name": "roket penne",
+            "img" : "assets/images/pie.jpg",
+            "price" : 62.3
           },
           {
-            "name": "Napolitana"
+            "name": "Napolitana",
+            "img" : "assets/images/napolitan.jpg",
+            "price" : 36.7
           },
           {
-            "name": "Daging Sapi"
+            "name": "Daging Sapi",
+            "img" : "assets/images/steak.jpg",
+            "price" : 76.7
           },
           {
-            "name": "Bebek crepes"
+            "name": "Bebek crepes",
+            "img" : "assets/images/bebek.jpg",
+            "price" : 74.3
           },
           {
-            "name": "Sup Kohlrabi"
+            "name": "Sup Kohlrabi",
+            "img" : "assets/images/supKohlrabi.jpg",
+            "price" : 32.7
           },
           {
-            "name": "Ikan teri dan roti"
+            "name": "Ikan teri dan roti",
+            "img" : "assets/images/bread.jpg",
+            "price" : 15.9
           },
           {
-            "name": "Tumis leek"
+            "name": "Tumis leek",
+            "img" : "assets/images/tumis.jpg",
+            "price" : 26.4
           }
         ],
         "drinks": [
           {
-            "name": "Kopi espresso"
+            "name": "Kopi espresso",
+            "img" : "assets/images/expresso.jpg",
+            "price" : 12.8
           },
           {
-            "name": "Coklat panas"
+            "name": "Coklat panas",
+            "img" : "assets/images/hotChocolate.jpg",
+            "price" : 15.4
           },
           {
-            "name": "Jus jeruk"
+            "name": "Jus jeruk",
+            "img" : "assets/images/jusJeruk.jpg",
+            "price" : 12.3
           },
           {
-            "name": "Jus apel"
+            "name": "Jus apel",
+            "img" : "assets/images/jusApel.jpg",
+            "price" : 12.3
           },
           {
-            "name": "Minuman soda"
+            "name": "Minuman soda",
+            "img" : "assets/images/iceSoda.jpg",
+            "price" : 19.5
           },
           {
-            "name": "Air"
+            "name": "Air",
+            "img" : "assets/images/water.jpg",
+            "price" : 5.5
           },
           {
-            "name": "Es kopi"
+            "name": "Es kopi",
+            "img" : "assets/images/iceCoffe.jpg",
+            "price" : 10.5
           }
         ]
       }
@@ -255,84 +333,136 @@
       "menus": {
         "foods": [
           {
-            "name": "Salad lengkeng"
+            "name": "Salad lengkeng",
+            "img" : "assets/images/salad.jpg",
+            "price" : 22.8
           },
           {
-            "name": "Kari terong"
+            "name": "Kari terong",
+            "img" : "assets/images/curryEggplant.jpg",
+            "price" : 24.7
           },
           {
-            "name": "Sosis squash dan mint"
+            "name": "Sosis squash dan mint",
+            "img" : "assets/images/sosis.jpg",
+            "price" : 36.7
           },
           {
-            "name": "Napolitana"
+            "name": "Napolitana",
+            "img" : "assets/images/napolitan.jpg",
+            "price" : 36.7
           },
           {
-            "name": "Salad yuzu"
+            "name": "Salad yuzu",
+            "img" : "assets/images/saladYuzu.jpg",
+            "price" : 25.9
           },
           {
-            "name": "Tumis leek"
+            "name": "Tumis leek",
+            "img" : "assets/images/tumis.jpg",
+            "price" : 26.4
           },
           {
-            "name": "Ikan teri dan roti"
+            "name": "Ikan teri dan roti",
+            "img" : "assets/images/bread.jpg",
+            "price" : 15.9
           },
           {
-            "name": "Kari kacang dan telur"
+            "name": "Kari kacang dan telur",
+            "img" : "assets/images/cury.jpg",
+            "price" : 32.8
           },
           {
-            "name": "Toastie salmon"
+            "name": "Toastie salmon",
+            "img" : "assets/images/salmon.jpg",
+            "price" : 41.7
           },
           {
-            "name": "Bebek crepes"
+            "name": "Bebek crepes",
+            "img" : "assets/images/bebek.jpg",
+            "price" : 74.3
           },
           {
-            "name": "Paket rosemary"
+            "name": "Paket rosemary",
+            "img" : "assets/images/rosemarry.jpg",
+            "price" : 122.8
           },
           {
-            "name": "Sup Kohlrabi"
+            "name": "Sup Kohlrabi",
+            "img" : "assets/images/supKohlrabi.jpg",
+            "price" : 32.7
           },
           {
-            "name": "roket penne"
+            "name": "roket penne",
+            "img" : "assets/images/pie.jpg",
+            "price" : 62.3
           }
         ],
         "drinks": [
           {
-            "name": "Minuman soda"
+            "name": "Minuman soda",
+            "img" : "assets/images/iceSoda.jpg",
+            "price" : 19.5
           },
           {
-            "name": "Es teh"
+            "name": "Es teh",
+            "img" : "assets/images/iceTea.jpg",
+            "price" : 8.8
           },
           {
-            "name": "Jus tomat"
+            "name": "Jus tomat",
+            "img" : "assets/images/jusTomat.jpg",
+            "price" : 12.5
           },
           {
-            "name": "Coklat panas"
+            "name": "Coklat panas",
+            "img" : "assets/images/hotChocolate.jpg",
+            "price" : 15.4
           },
           {
-            "name": "Jus jeruk"
+            "name": "Jus jeruk",
+            "img" : "assets/images/jusJeruk.jpg",
+            "price" : 12.3
           },
           {
-            "name": "Air"
+            "name": "Air",
+            "img" : "assets/images/water.jpg",
+            "price" : 5.5
           },
           {
-            "name": "Kopi espresso"
+            "name": "Kopi espresso",
+            "img" : "assets/images/expresso.jpg",
+            "price" : 12.8
           },
           {
-            "name": "Es kopi"
+            "name": "Es kopi",
+            "img" : "assets/images/iceCoffe.jpg",
+            "price" : 10.5
           },
           {
-            "name": "Sirup"
+            "name": "Sirup",
+            "img" : "assets/images/sirup.jpg",
+            "price" : 11.6
           },
           {
-            "name": "Jus alpukat"
+            "name": "Jus alpukat",
+            "img" : "assets/images/jusAlpukat.jpg",
+            "price" : 12.3
           },
           {
-            "name": "Jus mangga"
+            "name": "Jus mangga",
+            "img" : "assets/images/jusMangga.jpg",
+            "price" : 12.3
           },
           {
-            "name": "Jus apel"
+            "name": "Jus apel",
+            "img" : "assets/images/jusApel.jpg",
+            "price" : 12.3
           },
           {
-            "name": "Es krim"
+            "name": "Es krim",
+            "img" : "assets/images/iceCream2.jpg",
+            "price" : 12.1
           }
         ]
       }
@@ -347,60 +477,96 @@
       "menus": {
         "foods": [
           {
-            "name": "Daging Sapi"
+            "name": "Daging Sapi",
+            "img" : "assets/images/steak.jpg",
+            "price" : 76.7
           },
           {
-            "name": "Bebek crepes"
+            "name": "Bebek crepes",
+            "img" : "assets/images/bebek.jpg",
+            "price" : 74.3
           },
           {
-            "name": "Toastie salmon"
+            "name": "Toastie salmon",
+            "img" : "assets/images/salmon.jpg",
+            "price" : 41.7
           },
           {
-            "name": "Kari terong"
+            "name": "Kari terong",
+            "img" : "assets/images/curryEggplant.jpg",
+            "price" : 24.7
           },
           {
-            "name": "Paket rosemary"
+            "name": "Paket rosemary",
+            "img" : "assets/images/rosemarry.jpg",
+            "price" : 122.8
           },
           {
-            "name": "Salad lengkeng"
+            "name": "Salad lengkeng",
+            "img" : "assets/images/salad.jpg",
+            "price" : 22.8
           }
         ],
         "drinks": [
           {
-            "name": "Sirup"
+            "name": "Sirup",
+            "img" : "assets/images/sirup.jpg",
+            "price" : 11.6
           },
           {
-            "name": "Jus mangga"
+            "name": "Jus mangga",
+            "img" : "assets/images/jusMangga.jpg",
+            "price" : 12.3
           },
           {
-            "name": "Es teh"
+            "name": "Es teh",
+            "img" : "assets/images/iceTea.jpg",
+            "price" : 8.8
           },
           {
-            "name": "Jus jeruk"
+            "name": "Jus jeruk",
+            "img" : "assets/images/jusJeruk.jpg",
+            "price" : 12.3
           },
           {
-            "name": "Teh manis"
+            "name": "Teh manis",
+            "img" : "assets/images/iceTea.jpg",
+            "price" : 8.8
           },
           {
-            "name": "Kopi espresso"
+            "name": "Kopi espresso",
+            "img" : "assets/images/expresso.jpg",
+            "price" : 12.8
           },
           {
-            "name": "Es kopi"
+            "name": "Es kopi",
+            "img" : "assets/images/iceCoffe.jpg",
+            "price" : 10.5
           },
           {
-            "name": "Minuman soda"
+            "name": "Minuman soda",
+            "img" : "assets/images/iceSoda.jpg",
+            "price" : 19.5
           },
           {
-            "name": "Jus alpukat"
+            "name": "Jus alpukat",
+            "img" : "assets/images/jusAlpukat.jpg",
+            "price" : 12.3
           },
           {
-            "name": "Jus tomat"
+            "name": "Jus tomat",
+            "img" : "assets/images/jusTomat.jpg",
+            "price" : 12.5
           },
           {
-            "name": "Es krim"
+            "name": "Es krim",
+            "img" : "assets/images/iceCream2.jpg",
+            "price" : 12.1
           },
           {
-            "name": "Coklat panas"
+            "name": "Coklat panas",
+            "img" : "assets/images/hotChocolate.jpg",
+            "price" : 15.4
           }
         ]
       }
@@ -415,51 +581,81 @@
       "menus": {
         "foods": [
           {
-            "name": "Kari kacang dan telur"
+            "name": "Kari kacang dan telur",
+            "img" : "assets/images/cury.jpg",
+            "price" : 32.8
           },
           {
-            "name": "Toastie salmon"
+            "name": "Toastie salmon",
+            "img" : "assets/images/salmon.jpg",
+            "price" : 41.7
           },
           {
-            "name": "Matzo farfel"
+            "name": "Matzo farfel",
+            "img" : "assets/images/matzo.jpg",
+            "price" : 32.7
           },
           {
-            "name": "Napolitana"
+            "name": "Napolitana",
+            "img" : "assets/images/napolitan.jpg",
+            "price" : 36.7
           },
           {
-            "name": "Salad yuzu"
+            "name": "Salad yuzu",
+            "img" : "assets/images/saladYuzu.jpg",
+            "price" : 25.9
           },
           {
-            "name": "Sosis squash dan mint"
+            "name": "Sosis squash dan mint",
+            "img" : "assets/images/sosis.jpg",
+            "price" : 36.7
           },
           {
-            "name": "Daging Sapi"
+            "name": "Daging Sapi",
+            "img" : "assets/images/steak.jpg",
+            "price" : 76.7
           }
         ],
         "drinks": [
           {
-            "name": "Minuman soda"
+            "name": "Minuman soda",
+            "img" : "assets/images/iceSoda.jpg",
+            "price" : 19.5
           },
           {
-            "name": "Jus apel"
+            "name": "Jus apel",
+            "img" : "assets/images/jusApel.jpg",
+            "price" : 12.3
           },
           {
-            "name": "Air"
+            "name": "Air",
+            "img" : "assets/images/water.jpg",
+            "price" : 5.5
           },
           {
-            "name": "Jus jeruk"
+            "name": "Jus jeruk",
+            "img" : "assets/images/jusJeruk.jpg",
+            "price" : 12.3
           },
           {
-            "name": "Es krim"
+            "name": "Es krim",
+            "img" : "assets/images/iceCream2.jpg",
+            "price" : 12.1
           },
           {
-            "name": "Es teh"
+            "name": "Es teh",
+            "img" : "assets/images/iceTea.jpg",
+            "price" : 8.8
           },
           {
-            "name": "Jus tomat"
+            "name": "Jus tomat",
+            "img" : "assets/images/jusTomat.jpg",
+            "price" : 12.5
           },
           {
-            "name": "Coklat panas"
+            "name": "Coklat panas",
+            "img" : "assets/images/hotChocolate.jpg",
+            "price" : 15.4
           }
         ]
       }
@@ -474,66 +670,106 @@
       "menus": {
         "foods": [
           {
-            "name": "Sup Kohlrabi"
+            "name": "Sup Kohlrabi",
+            "img" : "assets/images/supKohlrabi.jpg",
+            "price" : 32.7
           },
           {
-            "name": "Paket rosemary"
+            "name": "Paket rosemary",
+            "img" : "assets/images/rosemarry.jpg",
+            "price" : 122.8
           },
           {
-            "name": "Tumis leek"
+            "name": "Tumis leek",
+            "img" : "assets/images/tumis.jpg",
+            "price" : 26.4
           },
           {
-            "name": "Kari terong"
+            "name": "Kari terong",
+            "img" : "assets/images/curryEggplant.jpg",
+            "price" : 24.7
           },
           {
-            "name": "roket penne"
+            "name": "roket penne",
+            "img" : "assets/images/pie.jpg",
+            "price" : 62.3
           },
           {
-            "name": "Sosis squash dan mint"
+            "name": "Sosis squash dan mint",
+            "img" : "assets/images/sosis.jpg",
+            "price" : 36.7
           },
           {
-            "name": "Salad lengkeng"
+            "name": "Salad lengkeng",
+            "img" : "assets/images/salad.jpg",
+            "price" : 22.8
           }
         ],
         "drinks": [
           {
-            "name": "Es kopi"
+            "name": "Es kopi",
+            "img" : "assets/images/iceCoffe.jpg",
+            "price" : 10.5
           },
           {
-            "name": "Air"
+            "name": "Air",
+            "img" : "assets/images/water.jpg",
+            "price" : 5.5
           },
           {
-            "name": "Jus apel"
+            "name": "Jus apel",
+            "img" : "assets/images/jusApel.jpg",
+            "price" : 12.3
           },
           {
-            "name": "Kopi espresso"
+            "name": "Kopi espresso",
+            "img" : "assets/images/expresso.jpg",
+            "price" : 12.8
           },
           {
-            "name": "Teh manis"
+            "name": "Teh manis",
+            "img" : "assets/images/iceTea.jpg",
+            "price" : 8.8
           },
           {
-            "name": "Jus jeruk"
+            "name": "Jus jeruk",
+            "img" : "assets/images/jusJeruk.jpg",
+            "price" : 12.3
           },
           {
-            "name": "Es teh"
+            "name": "Es teh",
+            "img" : "assets/images/iceTea.jpg",
+            "price" : 8.8
           },
           {
-            "name": "Coklat panas"
+            "name": "Coklat panas",
+            "img" : "assets/images/hotChocolate.jpg",
+            "price" : 15.4
           },
           {
-            "name": "Jus mangga"
+            "name": "Jus mangga",
+            "img" : "assets/images/jusMangga.jpg",
+            "price" : 12.3
           },
           {
-            "name": "Es krim"
+            "name": "Es krim",
+            "img" : "assets/images/iceCream2.jpg",
+            "price" : 12.1
           },
           {
-            "name": "Jus alpukat"
+            "name": "Jus alpukat",
+            "img" : "assets/images/jusAlpukat.jpg",
+            "price" : 12.3
           },
           {
-            "name": "Sirup"
+            "name": "Sirup",
+            "img" : "assets/images/sirup.jpg",
+            "price" : 11.6
           },
           {
-            "name": "Minuman soda"
+            "name": "Minuman soda",
+            "img" : "assets/images/iceSoda.jpg",
+            "price" : 19.5
           }
         ]
       }
@@ -548,42 +784,66 @@
       "menus": {
         "foods": [
           {
-            "name": "Sup Kohlrabi"
+            "name": "Sup Kohlrabi",
+            "img" : "assets/images/supKohlrabi.jpg",
+            "price" : 32.7
           },
           {
-            "name": "Toastie salmon"
+            "name": "Toastie salmon",
+            "img" : "assets/images/salmon.jpg",
+            "price" : 41.7
           },
           {
-            "name": "Tumis leek"
+            "name": "Tumis leek",
+            "img" : "assets/images/tumis.jpg",
+            "price" : 26.4
           },
           {
-            "name": "Ikan teri dan roti"
+            "name": "Ikan teri dan roti",
+            "img" : "assets/images/bread.jpg",
+            "price" : 15.9
           },
           {
-            "name": "Kari kacang dan telur"
+            "name": "Kari kacang dan telur",
+            "img" : "assets/images/cury.jpg",
+            "price" : 32.8
           }
         ],
         "drinks": [
           {
-            "name": "Jus alpukat"
+            "name": "Jus alpukat",
+            "img" : "assets/images/jusAlpukat.jpg",
+            "price" : 12.3
           },
           {
-            "name": "Jus jeruk"
+            "name": "Jus jeruk",
+            "img" : "assets/images/jusJeruk.jpg",
+            "price" : 12.3
           },
           {
-            "name": "Coklat panas"
+            "name": "Coklat panas",
+            "img" : "assets/images/hotChocolate.jpg",
+            "price" : 15.4
           },
           {
-            "name": "Es teh"
+            "name": "Es teh",
+            "img" : "assets/images/iceTea.jpg",
+            "price" : 8.8
           },
           {
-            "name": "Teh manis"
+            "name": "Teh manis",
+            "img" : "assets/images/iceTea.jpg",
+            "price" : 8.8
           },
           {
-            "name": "Es krim"
+            "name": "Es krim",
+            "img" : "assets/images/iceCream2.jpg",
+            "price" : 12.1
           },
           {
-            "name": "Jus mangga"
+            "name": "Jus mangga",
+            "img" : "assets/images/jusMangga.jpg",
+            "price" : 12.3
           }
         ]
       }
@@ -598,57 +858,91 @@
       "menus": {
         "foods": [
           {
-            "name": "Tumis leek"
+            "name": "Tumis leek",
+            "img" : "assets/images/tumis.jpg",
+            "price" : 26.4
           },
           {
-            "name": "Paket rosemary"
+            "name": "Paket rosemary",
+            "img" : "assets/images/rosemarry.jpg",
+            "price" : 122.8
           },
           {
-            "name": "roket penne"
+            "name": "roket penne",
+            "img" : "assets/images/pie.jpg",
+            "price" : 62.3
           },
           {
-            "name": "Daging Sapi"
+            "name": "Daging Sapi",
+            "img" : "assets/images/steak.jpg",
+            "price" : 76.7
           },
           {
-            "name": "Napolitana"
+            "name": "Napolitana",
+            "img" : "assets/images/napolitan.jpg",
+            "price" : 36.7
           },
           {
-            "name": "Salad lengkeng"
+            "name": "Salad lengkeng",
+            "img" : "assets/images/salad.jpg",
+            "price" : 22.8
           },
           {
-            "name": "Matzo farfel"
+            "name": "Matzo farfel",
+            "img" : "assets/images/matzo.jpg",
+            "price" : 32.7
           },
           {
-            "name": "Kari kacang dan telur"
+            "name": "Kari kacang dan telur",
+            "img" : "assets/images/cury.jpg",
+            "price" : 32.8
           },
           {
-            "name": "Sosis squash dan mint"
+            "name": "Sosis squash dan mint",
+            "img" : "assets/images/sosis.jpg",
+            "price" : 36.7
           },
           {
-            "name": "Kari terong"
+            "name": "Kari terong",
+            "img" : "assets/images/curryEggplant.jpg",
+            "price" : 24.7
           }
         ],
         "drinks": [
           {
-            "name": "Jus apel"
+            "name": "Jus apel",
+            "img" : "assets/images/jusApel.jpg",
+            "price" : 12.3
           },
           {
-            "name": "Air"
+            "name": "Air",
+            "img" : "assets/images/water.jpg",
+            "price" : 5.5
           },
           {
-            "name": "Teh manis"
+            "name": "Teh manis",
+            "img" : "assets/images/iceTea.jpg",
+            "price" : 8.8
           },
           {
-            "name": "Jus mangga"
+            "name": "Jus mangga",
+            "img" : "assets/images/jusMangga.jpg",
+            "price" : 12.3
           },
           {
-            "name": "Es teh"
+            "name": "Es teh",
+            "img" : "assets/images/iceTea.jpg",
+            "price" : 8.8
           },
           {
-            "name": "Jus alpukat"
+            "name": "Jus alpukat",
+            "img" : "assets/images/jusAlpukat.jpg",
+            "price" : 12.3
           },
           {
-            "name": "Jus tomat"
+            "name": "Jus tomat",
+            "img" : "assets/images/jusTomat.jpg",
+            "price" : 12.5
           }
         ]
       }
@@ -663,81 +957,131 @@
       "menus": {
         "foods": [
           {
-            "name": "Matzo farfel"
+            "name": "Matzo farfel",
+            "img" : "assets/images/matzo.jpg",
+            "price" : 32.7
           },
           {
-            "name": "Tumis leek"
+            "name": "Tumis leek",
+            "img" : "assets/images/tumis.jpg",
+            "price" : 26.4
           },
           {
-            "name": "Daging Sapi"
+            "name": "Daging Sapi",
+            "img" : "assets/images/steak.jpg",
+            "price" : 76.7
           },
           {
-            "name": "Napolitana"
+            "name": "Napolitana",
+            "img" : "assets/images/napolitan.jpg",
+            "price" : 36.7
           },
           {
-            "name": "Kari kacang dan telur"
+            "name": "Kari kacang dan telur",
+            "img" : "assets/images/cury.jpg",
+            "price" : 32.8
           },
           {
-            "name": "Kari terong"
+            "name": "Kari terong",
+            "img" : "assets/images/curryEggplant.jpg",
+            "price" : 24.7
           },
           {
-            "name": "Ikan teri dan roti"
+            "name": "Ikan teri dan roti",
+            "img" : "assets/images/bread.jpg",
+            "price" : 15.9
           },
           {
-            "name": "Bebek crepes"
+            "name": "Bebek crepes",
+            "img" : "assets/images/bebek.jpg",
+            "price" : 74.3
           },
           {
-            "name": "roket penne"
+            "name": "roket penne",
+            "img" : "assets/images/pie.jpg",
+            "price" : 62.3
           },
           {
-            "name": "Salad lengkeng"
+            "name": "Salad lengkeng",
+            "img" : "assets/images/salad.jpg",
+            "price" : 22.8
           },
           {
-            "name": "Paket rosemary"
+            "name": "Paket rosemary",
+            "img" : "assets/images/rosemarry.jpg",
+            "price" : 122.8
           },
           {
-            "name": "Salad yuzu"
+            "name": "Salad yuzu",
+            "img" : "assets/images/saladYuzu.jpg",
+            "price" : 25.9
           }
         ],
         "drinks": [
           {
-            "name": "Coklat panas"
+            "name": "Coklat panas",
+            "img" : "assets/images/hotChocolate.jpg",
+            "price" : 15.4
           },
           {
-            "name": "Jus apel"
+            "name": "Jus apel",
+            "img" : "assets/images/jusApel.jpg",
+            "price" : 12.3
           },
           {
-            "name": "Sirup"
+            "name": "Sirup",
+            "img" : "assets/images/sirup.jpg",
+            "price" : 11.6
           },
           {
-            "name": "Kopi espresso"
+            "name": "Kopi espresso",
+            "img" : "assets/images/expresso.jpg",
+            "price" : 12.8
           },
           {
-            "name": "Teh manis"
+            "name": "Teh manis",
+            "img" : "assets/images/iceTea.jpg",
+            "price" : 8.8
           },
           {
-            "name": "Es teh"
+            "name": "Es teh",
+            "img" : "assets/images/iceTea.jpg",
+            "price" : 8.8
           },
           {
-            "name": "Es kopi"
+            "name": "Es kopi",
+            "img" : "assets/images/iceCoffe.jpg",
+            "price" : 10.5
           },
           {
-            "name": "Jus jeruk"
+            "name": "Jus jeruk",
+            "img" : "assets/images/jusJeruk.jpg",
+            "price" : 12.3
           },
           {
-            "name": "Air"
+            "name": "Air",
+            "img" : "assets/images/water.jpg",
+            "price" : 5.5
           },
           {
-            "name": "Jus mangga"
+            "name": "Jus mangga",
+            "img" : "assets/images/jusMangga.jpg",
+            "price" : 12.3
           },
           {
-            "name": "Jus tomat"
+            "name": "Jus tomat",
+            "img" : "assets/images/jusTomat.jpg",
+            "price" : 12.5
           },
           {
-            "name": "Minuman soda"
+            "name": "Minuman soda",
+            "img" : "assets/images/iceSoda.jpg",
+            "price" : 19.5
           },
           {
-            "name": "Es krim"
+            "name": "Es krim",
+            "img" : "assets/images/iceCream2.jpg",
+            "price" : 12.1
           }
         ]
       }
