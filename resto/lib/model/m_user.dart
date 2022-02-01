@@ -1,6 +1,14 @@
-class UserModel {
-  final String? uid;
-  final String? email;
+import 'package:flutter/material.dart';
 
-  UserModel({this.uid, this.email});
+class UserModel {
+   String? uid;
+   
+
+  UserModel({this.uid,});
+  
 }
+
+
+
+
+

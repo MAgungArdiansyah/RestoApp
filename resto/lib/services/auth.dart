@@ -5,7 +5,7 @@ class AuthServices {
   final FirebaseAuth _auth = FirebaseAuth.instance;
 
   UserModel? _userFromFirebaseUser(User user) {
-    return user != null ? UserModel(uid: user.uid, email: user.email) : null;
+    return user != null ? UserModel(uid: user.uid) : null;
   }
 
   Stream<UserModel?> get user {
@@ -13,6 +13,7 @@ class AuthServices {
         .authStateChanges()
         .map((User? user) => _userFromFirebaseUser(user!));
   }
+
 
   Future register(String email, String password) async {
     try {
@@ -30,7 +31,7 @@ class AuthServices {
       UserCredential result = await _auth.signInWithEmailAndPassword(
           email: email, password: password);
       User? user = result.user;
-      return user;
+      return _userFromFirebaseUser(user!);
     } catch (e) {
       return e.toString();
     }
@@ -43,4 +44,10 @@ class AuthServices {
       return null;
     }
   }
+
+  String get currentUser {
+    return _auth.currentUser!.uid;
+  }
+  
+
 }

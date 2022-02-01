@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:resto/model/m_user.dart';
+import 'package:resto/screen/accountpage/accountpage.dart';
 import 'package:resto/screen/homepage/homepage.dart';
 import 'package:resto/screen/loginregister/widget/blur.dart';
 import 'package:resto/screen/loginregister/widget/customDialog.dart';
@@ -20,7 +22,7 @@ class RegisterPage extends StatefulWidget {
 
 class _RegisterPageState extends State<RegisterPage> {
   final AuthServices _authServices = AuthServices();
-  final DatabaseServices _databaseServices = DatabaseServices();
+  final DatabaseServices _dbservices = DatabaseServices();
   final _checkemail = GlobalKey<FormState>();
   final _checkpass = GlobalKey<FormState>();
   final _checkname = GlobalKey<FormState>();
@@ -34,12 +36,13 @@ class _RegisterPageState extends State<RegisterPage> {
   @override
   Widget build(BuildContext context) {
     final Size _size = MediaQuery.of(context).size;
+    
 
     return StreamBuilder(
         stream: AuthServices().user,
         builder: (context, snapshot) {
           if (snapshot.hasData) {
-            return const HomePage();
+            return AccountPage();
           } else {
             return loading
                 ? const Loading()
@@ -221,8 +224,6 @@ class _RegisterPageState extends State<RegisterPage> {
                                                       await _authServices
                                                           .register(
                                                               email, password);
-
-                                                  
                                                   if (result ==
                                                       '[firebase_auth/invalid-email] The email address is badly formatted.') {
                                                     setState(() {
@@ -273,25 +274,27 @@ class _RegisterPageState extends State<RegisterPage> {
                                                             ));
                                                   } else {
                                                     showDialog(
-                                                          context: context,
-                                                          builder: (context) =>
-                                                              CustomDialog(
-                                                                header:
-                                                                    'Succes',
-                                                                detail:
-                                                                    'Your account is created',
-                                                                lottie:
-                                                                    'assets/json/done.json',
-                                                              ));
+                                                        context: context,
+                                                        builder: (context) =>
+                                                            CustomDialog(
+                                                              header: 'Succes',
+                                                              detail:
+                                                                  'Your account is created',
+                                                              lottie:
+                                                                  'assets/json/done.json',
+                                                            ));
+                                                    _dbservices.uid = result.uid;
                                                     dynamic db =
-                                                        _databaseServices
-                                                            .addUser(result.uid,
+                                                        await _dbservices
+                                                            .addUser(
                                                                 name, email);
                                                     if (db == 'done') {
+                                                      
                                                       setState(() {
                                                         loading = false;
                                                       });
-                                                    } 
+                                                    }
+                                                    
                                                   }
                                                 }
                                               },

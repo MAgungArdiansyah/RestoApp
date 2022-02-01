@@ -79,14 +79,18 @@ final TextTheme darkTheme = TextTheme(
       fontWeight: FontWeight.w300,
       letterSpacing: -0.5),
   headline3: GoogleFonts.poppins(
-      color: Colors.black, fontSize: 46, fontWeight: FontWeight.w400),
+      color: Colors.black,
+      fontSize: 46, 
+      fontWeight: FontWeight.w400),
   headline4: GoogleFonts.poppins(
       color: Colors.black,
       fontSize: 38,
       fontWeight: FontWeight.w600,
       letterSpacing: 0.25),
   headline5: GoogleFonts.poppins(
-      color: Colors.black, fontSize: 23, fontWeight: FontWeight.w400),
+      color: Colors.black, 
+      fontSize: 23, 
+      fontWeight: FontWeight.w400),
   headline6: GoogleFonts.poppins(
       color: Colors.black,
       fontSize: 19,
@@ -98,7 +102,7 @@ final TextTheme darkTheme = TextTheme(
       fontWeight: FontWeight.w400,
       letterSpacing: 0.15),
   subtitle2: GoogleFonts.poppins(
-      color: Colors.red,
+      color: Colors.black,
       fontSize: 13,
       fontWeight: FontWeight.w500,
       letterSpacing: 0.1),
@@ -113,17 +117,17 @@ final TextTheme darkTheme = TextTheme(
       fontWeight: FontWeight.w400,
       letterSpacing: 0.25),
   button: GoogleFonts.josefinSans(
-      color: Colors.white,
+      color: Colors.black,
       fontSize: 18,
       fontWeight: FontWeight.w500,
       letterSpacing: 1.25),
   caption: GoogleFonts.josefinSans(
-      color: Colors.white,
+      color: Colors.black,
       fontSize: 15,
       fontWeight: FontWeight.w400,
       letterSpacing: 0.4),
   overline: GoogleFonts.josefinSans(
-      color: Colors.white,
+      color: Colors.black,
       fontSize: 13,
       fontWeight: FontWeight.w400,
       letterSpacing: 1.5),

@@ -30,6 +30,7 @@ class RestaurantElement {
     required this.pictureId,
     required this.city,
     required this.rating,
+    required this.menu
   });
 
   RestaurantElement.fromJson(Map<String, dynamic> restaurant) {
@@ -39,6 +40,7 @@ class RestaurantElement {
     pictureId = restaurant['pictureId'] ?? 'error';
     city = restaurant['city'] ?? 'error';
     rating = restaurant['rating'].toDouble() ?? 0;
+    menu = Menu.fromJson(restaurant['menus']);
   }
 }
 
@@ -48,29 +50,38 @@ class Menu {
 
   Menu({required this.foods, required this.drinks});
 
-  Menu.fromJson(Map<String, dynamic> menu) {
-    foods = List<Foods>.from(menu['foods'].map((food) => Foods.fromJson(food)));
+  Menu.fromJson(Map<String, dynamic> menus) {
+    foods = List<Foods>.from(menus['foods'].map((food) => Foods.fromJson(food)));
     drinks = List<Drinks>.from(
-        menu['drinks'].map((drink) => Drinks.fromJson(drink)));
+        menus['drinks'].map((drink) => Drinks.fromJson(drink)));
   }
 }
 
 class Foods {
   late String name;
+  late String img;
+  late double price;
 
-  Foods({required this.name});
+  Foods({required this.name, });
 
   Foods.fromJson(Map<String, dynamic> foods) {
-    name = foods['name'];
+    name = foods['name'] ?? 'error';
+    img = foods['img'] ?? 'error';
+    price = foods['price'] ?? 0;
   }
 }
 
 class Drinks {
   late String name;
+  late String img;
+  late double price;
 
-  Drinks({required this.name});
+  Drinks({required this.name, required this.img, required this.price});
 
   Drinks.fromJson(Map<String, dynamic> drinks) {
-    name = drinks['name'];
+    //Drinks(name: drinks['name'] ?? 'error');
+    name = drinks['name'] ?? 'error';
+    img = drinks['img'] ?? 'error';
+    price = drinks['price'] ?? 0;
   }
 }
