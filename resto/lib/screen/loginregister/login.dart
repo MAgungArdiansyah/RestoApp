@@ -157,7 +157,8 @@ class _LoginPageState extends State<LoginPage> {
                                                             lottie:
                                                                 'assets/json/fail2.json',
                                                           ));
-                                                } else if (result == '[firebase_auth/user-not-found] There is no user record corresponding to this identifier. The user may have been deleted.') {
+                                                } else if (result ==
+                                                    '[firebase_auth/user-not-found] There is no user record corresponding to this identifier. The user may have been deleted.') {
                                                   setState(() {
                                                     loading = false;
                                                   });

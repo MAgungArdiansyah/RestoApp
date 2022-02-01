@@ -60,7 +60,8 @@ class LandingPage2 extends StatelessWidget {
                     children: [
                       TextButton(
                           onPressed: () {
-                            Navigator.pushNamed(context, RegisterPage.routeName);
+                            Navigator.pushNamed(
+                                context, RegisterPage.routeName);
                           },
                           child: const Text('Skip')),
                       SizedBox(
@@ -74,7 +75,8 @@ class LandingPage2 extends StatelessWidget {
                                     BorderRadius.all(Radius.circular(50))),
                           ),
                           onPressed: () {
-                            Navigator.pushReplacementNamed(context, LandingPage3.routeName);
+                            Navigator.pushReplacementNamed(
+                                context, LandingPage3.routeName);
                           },
                           child: const Text('Next'),
                         ),

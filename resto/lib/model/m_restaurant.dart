@@ -23,15 +23,14 @@ class RestaurantElement {
   late double rating;
   late Menu menu;
 
-  RestaurantElement({
-    required this.id,
-    required this.name,
-    required this.description,
-    required this.pictureId,
-    required this.city,
-    required this.rating,
-    required this.menu
-  });
+  RestaurantElement(
+      {required this.id,
+      required this.name,
+      required this.description,
+      required this.pictureId,
+      required this.city,
+      required this.rating,
+      required this.menu});
 
   RestaurantElement.fromJson(Map<String, dynamic> restaurant) {
     id = restaurant['id'] ?? 'error';
@@ -51,7 +50,8 @@ class Menu {
   Menu({required this.foods, required this.drinks});
 
   Menu.fromJson(Map<String, dynamic> menus) {
-    foods = List<Foods>.from(menus['foods'].map((food) => Foods.fromJson(food)));
+    foods =
+        List<Foods>.from(menus['foods'].map((food) => Foods.fromJson(food)));
     drinks = List<Drinks>.from(
         menus['drinks'].map((drink) => Drinks.fromJson(drink)));
   }
@@ -62,7 +62,9 @@ class Foods {
   late String img;
   late double price;
 
-  Foods({required this.name, });
+  Foods({
+    required this.name,
+  });
 
   Foods.fromJson(Map<String, dynamic> foods) {
     name = foods['name'] ?? 'error';

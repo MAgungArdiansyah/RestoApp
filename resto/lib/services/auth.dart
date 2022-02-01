@@ -14,7 +14,6 @@ class AuthServices {
         .map((User? user) => _userFromFirebaseUser(user!));
   }
 
-
   Future register(String email, String password) async {
     try {
       UserCredential? result = await _auth.createUserWithEmailAndPassword(
@@ -48,6 +47,4 @@ class AuthServices {
   String get currentUser {
     return _auth.currentUser!.uid;
   }
-  
-
 }

@@ -37,7 +37,8 @@ class Stats extends StatelessWidget {
   final String value;
   final String stats;
 
-  const Stats({Key? key, required this.value, required this.stats}) : super(key: key);
+  const Stats({Key? key, required this.value, required this.stats})
+      : super(key: key);
 
   @override
   Widget build(BuildContext context) {

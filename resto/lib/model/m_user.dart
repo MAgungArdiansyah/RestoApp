@@ -1,11 +1,7 @@
 class UserModel {
-   String? uid;
-   
+  String? uid;
 
-  UserModel({this.uid,});
+  UserModel({
+    this.uid,
+  });
 }
-
-
-
-
-

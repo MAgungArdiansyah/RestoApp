@@ -12,7 +12,7 @@ import 'package:resto/style/style.dart';
 
 class AccountPage extends StatefulWidget {
   static const routeName = '/account_page';
-  
+
   const AccountPage({Key? key}) : super(key: key);
 
   @override
@@ -21,19 +21,17 @@ class AccountPage extends StatefulWidget {
 
 class _AccountPageState extends State<AccountPage> {
   final AuthServices _authServices = AuthServices();
-  final DatabaseServices _databaseServices =
-      DatabaseServices();
+  final DatabaseServices _databaseServices = DatabaseServices();
 
   @override
   Widget build(BuildContext context) {
     _databaseServices.id = _authServices.currentUser;
     final Size _size = MediaQuery.of(context).size;
-    
+
     return StreamBuilder<DocumentSnapshot>(
         stream: _databaseServices.user,
         builder: (context, snapshot) {
           if (snapshot.hasData) {
-            
             return SafeArea(
                 child: Scaffold(
                     appBar: buildAppbar(context),
@@ -63,7 +61,7 @@ class _AccountPageState extends State<AccountPage> {
                               style: darkTheme.bodyText2,
                             ),
                             SizedBox(
-                             height: _size.height * 0.01,
+                              height: _size.height * 0.01,
                             ),
                             Text(
                               'E-Money : 0',
@@ -133,7 +131,7 @@ class _AccountPageState extends State<AccountPage> {
                                 onpressed: () {
                                   showDialog(
                                       context: context,
-                                      builder: (context) =>const CustomDialog(
+                                      builder: (context) => const CustomDialog(
                                           header: 'Cooming Soon',
                                           detail: 'Stay tune guys',
                                           lottie:
@@ -250,8 +248,6 @@ class _OtherButtonState extends State<OtherButton> {
   }
 }
 
-
-
 class UpgradeButton extends StatelessWidget {
   const UpgradeButton({
     Key? key,
@@ -279,5 +275,3 @@ class UpgradeButton extends StatelessWidget {
     );
   }
 }
-
-

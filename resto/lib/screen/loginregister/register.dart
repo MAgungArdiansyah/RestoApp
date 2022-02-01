@@ -34,7 +34,6 @@ class _RegisterPageState extends State<RegisterPage> {
   @override
   Widget build(BuildContext context) {
     final Size _size = MediaQuery.of(context).size;
-    
 
     return StreamBuilder(
         stream: AuthServices().user,
@@ -281,18 +280,17 @@ class _RegisterPageState extends State<RegisterPage> {
                                                               lottie:
                                                                   'assets/json/done.json',
                                                             ));
-                                                    _dbservices.uid = result.uid;
+                                                    _dbservices.uid =
+                                                        result.uid;
                                                     dynamic db =
                                                         await _dbservices
                                                             .addUser(
                                                                 name, email);
                                                     if (db == 'done') {
-                                                      
                                                       setState(() {
                                                         loading = false;
                                                       });
                                                     }
-                                                    
                                                   }
                                                 }
                                               },

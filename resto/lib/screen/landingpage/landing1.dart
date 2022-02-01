@@ -84,7 +84,8 @@ class BodyLand1 extends StatelessWidget {
                     children: [
                       TextButton(
                           onPressed: () {
-                            Navigator.pushNamed(context, RegisterPage.routeName);
+                            Navigator.pushNamed(
+                                context, RegisterPage.routeName);
                           },
                           child: const Text('Skip')),
                       SizedBox(

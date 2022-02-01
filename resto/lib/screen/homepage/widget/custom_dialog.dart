@@ -26,8 +26,8 @@ class _CustomDialogState extends State<CustomDialogHome>
   void initState() {
     super.initState();
 
-    controller =
-        AnimationController(vsync: this, duration: const Duration(milliseconds: 900));
+    controller = AnimationController(
+        vsync: this, duration: const Duration(milliseconds: 900));
   }
 
   @override
@@ -53,9 +53,8 @@ class _CustomDialogState extends State<CustomDialogHome>
             padding:
                 const EdgeInsets.only(top: 32, bottom: 0, left: 8, right: 8),
             decoration: BoxDecoration(
-              color: Colors.black.withOpacity(0.8),
-              borderRadius: BorderRadius.circular(15)
-            ),
+                color: Colors.black.withOpacity(0.8),
+                borderRadius: BorderRadius.circular(15)),
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [

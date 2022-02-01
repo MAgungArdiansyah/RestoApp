@@ -18,10 +18,8 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage>
     with SingleTickerProviderStateMixin {
-
   @override
   Widget build(BuildContext context) {
-  
     return SafeArea(
       child: Scaffold(
           backgroundColor: Colors.white.withOpacity(0.99),
@@ -75,7 +73,6 @@ class _HomePageState extends State<HomePage>
                     final Restaurant restaurant =
                         restaurantFromJson(snapshot.data!);
                     return ListView.builder(
-                        
                         itemCount: restaurant.restaurants.length,
                         itemBuilder: (contex, index) {
                           return _buildRestauransItems(
@@ -97,70 +94,66 @@ class _HomePageState extends State<HomePage>
   }
 }
 
-Widget _buildRestauransItems (BuildContext context, RestaurantElement restaurant) {
+Widget _buildRestauransItems(
+    BuildContext context, RestaurantElement restaurant) {
   return Padding(
-    padding: const EdgeInsets.symmetric(horizontal:8),
+    padding: const EdgeInsets.symmetric(horizontal: 8),
     child: ListTile(
-
-        contentPadding:
-            const EdgeInsets.symmetric(vertical: 16.0, horizontal: 16.0),
-        leading: Hero(
-          tag: restaurant.pictureId,
-          child: Image.network(
-            restaurant.pictureId, 
-            height: 200,
-            width: 100, 
-            fit: BoxFit.cover
-          ),
-        ),
-        title: Text(
-          restaurant.name,
-          style: darkTheme.subtitle1,
-        ),
-        subtitle: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Row(
-              mainAxisAlignment: MainAxisAlignment.start,
-              children: [
-                Icon(
-                  Icons.location_on,
-                  color: secondaryColor,
-                  size: 20,
-                ),
-                const SizedBox(
-                  width: 5,
-                ),
-                Text(
-                  restaurant.city,
-                  style: darkTheme.subtitle2,
-                ),
-              ],
-            ),
-            Row(
-              children: [
-                Icon(
-                  Icons.stars,
-                  color: secondaryColor,
-                  size: 20,
-                ),
-                const SizedBox(
-                  width: 5,
-                ),
-                Text(
-                  restaurant.rating.toString(),
-                  style: darkTheme.subtitle2,
-                ),
-              ],
-            ),
-          ],
-        ),
-        isThreeLine: true,
-         visualDensity: const VisualDensity(vertical: 3),
-        onTap: () {
-          Navigator.pushNamed(context, DeatailPage.routeName, arguments: restaurant);
-        },
+      contentPadding:
+          const EdgeInsets.symmetric(vertical: 16.0, horizontal: 16.0),
+      leading: Hero(
+        tag: restaurant.pictureId,
+        child: Image.network(restaurant.pictureId,
+            height: 200, width: 100, fit: BoxFit.cover),
       ),
+      title: Text(
+        restaurant.name,
+        style: darkTheme.subtitle1,
+      ),
+      subtitle: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            mainAxisAlignment: MainAxisAlignment.start,
+            children: [
+              Icon(
+                Icons.location_on,
+                color: secondaryColor,
+                size: 20,
+              ),
+              const SizedBox(
+                width: 5,
+              ),
+              Text(
+                restaurant.city,
+                style: darkTheme.subtitle2,
+              ),
+            ],
+          ),
+          Row(
+            children: [
+              Icon(
+                Icons.stars,
+                color: secondaryColor,
+                size: 20,
+              ),
+              const SizedBox(
+                width: 5,
+              ),
+              Text(
+                restaurant.rating.toString(),
+                style: darkTheme.subtitle2,
+              ),
+            ],
+          ),
+        ],
+      ),
+      isThreeLine: true,
+      visualDensity: const VisualDensity(vertical: 3),
+      onTap: () {
+        Navigator.pushNamed(context, DeatailPage.routeName,
+            arguments: restaurant);
+      },
+    ),
   );
 }
-

@@ -79,18 +79,14 @@ final TextTheme darkTheme = TextTheme(
       fontWeight: FontWeight.w300,
       letterSpacing: -0.5),
   headline3: GoogleFonts.poppins(
-      color: Colors.black,
-      fontSize: 46, 
-      fontWeight: FontWeight.w400),
+      color: Colors.black, fontSize: 46, fontWeight: FontWeight.w400),
   headline4: GoogleFonts.poppins(
       color: Colors.black,
       fontSize: 38,
       fontWeight: FontWeight.w600,
       letterSpacing: 0.25),
   headline5: GoogleFonts.poppins(
-      color: Colors.black, 
-      fontSize: 23, 
-      fontWeight: FontWeight.w400),
+      color: Colors.black, fontSize: 23, fontWeight: FontWeight.w400),
   headline6: GoogleFonts.poppins(
       color: Colors.black,
       fontSize: 19,

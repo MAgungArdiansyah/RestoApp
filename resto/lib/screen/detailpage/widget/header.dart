@@ -87,7 +87,7 @@ class Header extends StatelessWidget {
         ),
         GestureDetector(
           onTap: () {
-             showDialog(
+            showDialog(
                 context: context,
                 builder: (context) => const CustomDialog(
                     header: 'Cooming Soon',
