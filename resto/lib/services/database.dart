@@ -8,7 +8,7 @@ class DatabaseServices {
   set uid(String uid) {
     id = uid;
   }
-
+  
   final CollectionReference userCollection =
       FirebaseFirestore.instance.collection('User');
 

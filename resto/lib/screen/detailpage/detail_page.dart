@@ -189,7 +189,7 @@ class DeatailPage extends StatelessWidget {
           SizedBox(
             width: 150,
             height: 100,
-            child: Image.asset(restaurantElement.menu.foods[index].img,
+            child: Image.network(restaurantElement.menu.foods[index].img,
                 fit: BoxFit.cover),
           ),
           const SizedBox(
@@ -229,7 +229,7 @@ class DeatailPage extends StatelessWidget {
           SizedBox(
             width: 150,
             height: 100,
-            child: Image.asset(restaurantElement.menu.drinks[index].img,
+            child: Image.network(restaurantElement.menu.drinks[index].img,
                 fit: BoxFit.fitWidth),
           ),
           const SizedBox(

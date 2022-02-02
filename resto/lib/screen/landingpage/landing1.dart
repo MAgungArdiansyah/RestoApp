@@ -45,7 +45,7 @@ class BodyLand1 extends StatelessWidget {
             height: _size.height,
             width: _size.width,
             child: const Image(
-              image: AssetImage('assets/images/bakso.jpg'),
+              image: NetworkImage('https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fbakso.jpg?alt=media&token=74330138-82e3-4bc1-9c73-942a473b127a'),
               fit: BoxFit.cover,
             ),
           ),

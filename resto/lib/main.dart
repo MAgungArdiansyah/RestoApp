@@ -11,6 +11,7 @@ import 'package:resto/screen/landingpage/landing3.dart';
 import 'package:resto/screen/loginregister/login.dart';
 import 'package:resto/screen/loginregister/register.dart';
 
+
 import 'package:resto/style/style.dart';
 
 void main() async {
@@ -23,7 +24,7 @@ void main() async {
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
-  // This widget is the root of your application.
+  
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -49,9 +50,7 @@ class MyApp extends StatelessWidget {
         LoginPage.routeName: (context) => const LoginPage(),
         RegisterPage.routeName: (context) => const RegisterPage(),
         AccountPage.routeName: (context) => const AccountPage(),
-        DeatailPage.routeName: (context) => DeatailPage(
-            restaurantElement:
-                ModalRoute.of(context)?.settings.arguments as RestaurantElement)
+        DeatailPage.routeName: (context) => DeatailPage(restaurantElement: ModalRoute.of(context)?.settings.arguments as RestaurantElement)
       },
     );
   }

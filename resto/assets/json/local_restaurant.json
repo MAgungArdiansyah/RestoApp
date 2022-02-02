@@ -11,90 +11,90 @@
         "foods": [
           {
             "name": "Paket rosemary",
-            "img" : "assets/images/rosemarry.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Frosemarry.jpg?alt=media&token=553cb3c9-5644-4929-b2e4-b90dcc1dbf65",
             "price" : 122.8
             
           },
           {
             "name": "Toastie salmon",
-            "img" : "assets/images/salmon.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fsalmon.jpg?alt=media&token=3bf2090e-33ca-488d-8b0c-d1360a8668ea",
             "price" : 41.7
           },
           {
             "name": "Bebek crepes",
-            "img" : "assets/images/bebek.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fbebek.jpg?alt=media&token=6b4cf3aa-f41f-4454-bcc5-c305e13536ab",
             "price" : 74.3
           },
           {
             "name": "Salad lengkeng",
-            "img" : "assets/images/salad.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fsalad.jpg?alt=media&token=498538b8-8b7e-407b-8ddb-9bbb5035eeb2",
             "price" : 24.4
           }
         ],
         "drinks": [
           {
             "name": "Es krim",
-            "img" : "assets/images/iceCream2.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FiceCream2.jpg?alt=media&token=af12c282-328d-40fc-86fc-1dc2fb20bdf2",
             "price" : 12.1
           },
           {
             "name": "Sirup",
-            "img" : "assets/images/sirup.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fsirup.jpg?alt=media&token=40480f0f-fb31-4ee5-ba97-e8d5f3363940",
             "price" : 11.6
           },
           {
             "name": "Jus apel",
-            "img" : "assets/images/jusApel.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FjusApel.jpg?alt=media&token=530b71ab-bb1a-4d16-b199-6d5a72d65c1f",
             "price" : 12.3
           },
           {
             "name": "Jus jeruk",
-            "img" : "assets/images/jusJeruk.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FjusJeruk.jpg?alt=media&token=9aa19fea-503c-4986-b9c5-1201f8968209",
             "price" : 12.3
           },
           {
             "name": "Coklat panas",
-            "img" : "assets/images/hotChocolate.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FhotChocolate.jpg?alt=media&token=cd3457ca-960e-4b81-99a5-852efe99c842",
             "price" : 15.4
           },
           {
             "name": "Air",
-            "img" : "assets/images/water.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fwater.jpg?alt=media&token=41792e01-ee28-43d7-b276-07b9cf28fb5e",
             "price" : 5.5
           },
           {
             "name": "Es kopi",
-            "img" : "assets/images/iceCoffe.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FiceCoffe.jpg?alt=media&token=2836c4c9-4fc3-4448-873d-1c65d5397199",
             "price" : 10.5
           },
           {
             "name": "Jus alpukat",
-            "img" : "assets/images/jusAlpukat.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FjusAlpukat.jpg?alt=media&token=ae8ebfa5-b2aa-468b-afb2-5dec2775a0b2",
             "price" : 12.3
           },
           {
             "name": "Jus mangga",
-            "img" : "assets/images/jusMangga.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FjusMangga.jpg?alt=media&token=05a3602c-a6e3-4cdb-81d5-701d30d36985",
             "price" : 12.3
           },
           {
             "name": "Teh manis",
-            "img" : "assets/images/hotTea.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FhotTea.jpg?alt=media&token=00ad703c-c70c-48d8-92a5-484cde4d01c4",
             "price" : 8.8
           },
           {
             "name": "Kopi espresso",
-            "img" : "assets/images/expresso.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fexpresso.jpg?alt=media&token=02ea64a9-a7a1-49ae-b7ba-a44b7cb359af",
             "price" : 12.8
           },
           {
             "name": "Minuman soda",
-            "img" : "assets/images/iceSoda.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FiceSoda.jpg?alt=media&token=4522b7fb-9b39-43f0-bb7e-37a51b27be7c",
             "price" : 19.5
           },
           {
             "name": "Jus tomat",
-            "img" : "assets/images/jusTomat.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FjusTomat.jpg?alt=media&token=c9b1cb4a-9b16-495d-9010-abc634c71a2c",
             "price" : 12.5
           }
         ]
@@ -111,99 +111,99 @@
         "foods": [
           {
             "name": "Kari kacang dan telur",
-            "img" : "assets/images/cury.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fcury.jpg?alt=media&token=66c15e69-e424-46dc-ad5b-c75b3aabcf4f",
             "price" : 32.8
           },
           {
             "name": "Ikan teri dan roti",
-            "img" : "assets/images/bread.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fbread.jpg?alt=media&token=3fff0351-5dee-47ef-a271-3763ececec4a",
             "price" : 15.9
           },
           {
             "name": "roket penne",
-            "img" : "assets/images/pie.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fpie.jpg?alt=media&token=fc28153b-2e49-4482-ba91-f29581920547",
             "price" : 62.3
           },
           {
             "name": "Salad lengkeng",
-            "img" : "assets/images/salad.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fsalad.jpg?alt=media&token=498538b8-8b7e-407b-8ddb-9bbb5035eeb2",
             "price" : 22.8
           },
           {
             "name": "Tumis leek",
-            "img" : "assets/images/tumis.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Ftumis.jpg?alt=media&token=193549e0-5276-41e1-ba7a-e7be1e08bc25",
             "price" : 26.4
           },
           {
             "name": "Salad yuzu",
-            "img" : "assets/images/saladYuzu.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FsaladYuzu.jpg?alt=media&token=2d64ba8b-8ae3-4bb5-aabc-d2a2eb6c49fd",
             "price" : 25.9
           },
           {
             "name": "Sosis squash dan mint",
-            "img" : "assets/images/sosis.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fsosis.jpg?alt=media&token=65771f44-f640-4de1-9e83-7b47c48a092f",
             "price" : 36.7
           }
         ],
         "drinks": [
           {
             "name": "Jus tomat",
-            "img" : "assets/images/jusTomat.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FjusTomat.jpg?alt=media&token=c9b1cb4a-9b16-495d-9010-abc634c71a2c",
             "price" : 12.5
           },
           {
             "name": "Minuman soda",
-            "img" : "assets/images/iceSoda.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FiceSoda.jpg?alt=media&token=4522b7fb-9b39-43f0-bb7e-37a51b27be7c",
             "price" : 19.5
           },
           {
             "name": "Jus apel",
-            "img" : "assets/images/jusApel.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FjusApel.jpg?alt=media&token=530b71ab-bb1a-4d16-b199-6d5a72d65c1f",
             "price" : 12.3
           },
           {
             "name": "Jus mangga",
-            "img" : "assets/images/jusMangga.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FjusMangga.jpg?alt=media&token=05a3602c-a6e3-4cdb-81d5-701d30d36985",
             "price" : 12.3
           },
           {
             "name": "Es krim",
-            "img" : "assets/images/iceCream2.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FiceCream2.jpg?alt=media&token=af12c282-328d-40fc-86fc-1dc2fb20bdf2",
             "price" : 12.1
           },
           {
             "name": "Kopi espresso",
-            "img" : "assets/images/expresso.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fexpresso.jpg?alt=media&token=02ea64a9-a7a1-49ae-b7ba-a44b7cb359af",
             "price" : 12.8
           },
           {
             "name": "Jus alpukat",
-            "img" : "assets/images/jusAlpukat.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FjusAlpukat.jpg?alt=media&token=ae8ebfa5-b2aa-468b-afb2-5dec2775a0b2",
             "price" : 12.3
           },
           {
             "name": "Coklat panas",
-            "img" : "assets/images/hotChocolate.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FhotChocolate.jpg?alt=media&token=cd3457ca-960e-4b81-99a5-852efe99c842",
             "price" : 15.4
           },
           {
             "name": "Es kopi",
-            "img" : "assets/images/iceCoffe.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FiceCoffe.jpg?alt=media&token=2836c4c9-4fc3-4448-873d-1c65d5397199",
             "price" : 10.5
           },
           {
             "name": "Teh manis",
-            "img" : "assets/images/hotTea.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FhotTea.jpg?alt=media&token=00ad703c-c70c-48d8-92a5-484cde4d01c4",
             "price" : 8.8
           },
           {
             "name": "Sirup",
-            "img" : "assets/images/sirup.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fsirup.jpg?alt=media&token=40480f0f-fb31-4ee5-ba97-e8d5f3363940",
             "price" : 11.6
           },
           {
             "name": "Jus jeruk",
-            "img" : "assets/images/jusJeruk.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FjusJeruk.jpg?alt=media&token=9aa19fea-503c-4986-b9c5-1201f8968209",
             "price" : 12.3
           }
         ]
@@ -220,104 +220,104 @@
         "foods": [
           {
             "name": "Salad lengkeng",
-            "img" : "assets/images/salad.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fsalad.jpg?alt=media&token=498538b8-8b7e-407b-8ddb-9bbb5035eeb2",
             "price" : 22.8
           },
           {
             "name": "Sosis squash dan mint",
-            "img" : "assets/images/sosis.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fsosis.jpg?alt=media&token=65771f44-f640-4de1-9e83-7b47c48a092f",
             "price" : 36.7
           },
           {
             "name": "Toastie salmon",
-            "img" : "assets/images/salmon.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fsalmon.jpg?alt=media&token=3bf2090e-33ca-488d-8b0c-d1360a8668ea",
             "price" : 41.7
           },
           {
             "name": "Salad yuzu",
-            "img" : "assets/images/saladYuzu.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FsaladYuzu.jpg?alt=media&token=2d64ba8b-8ae3-4bb5-aabc-d2a2eb6c49fd",
             "price" : 25.9
           },
           {
             "name": "Matzo farfel",
-            "img" : "assets/images/matzo.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fmatzo.jpg?alt=media&token=563590e8-cef6-4c78-a685-9140b9c77d51",
             "price" : 32.7
           },
           {
             "name": "Kari terong",
-            "img" : "assets/images/curryEggplant.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FcurryEggplant.jpg?alt=media&token=59a556e4-7338-48d9-854a-648fd29d1027",
             "price" : 24.7
           },
           {
             "name": "roket penne",
-            "img" : "assets/images/pie.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fpie.jpg?alt=media&token=fc28153b-2e49-4482-ba91-f29581920547",
             "price" : 62.3
           },
           {
             "name": "Napolitana",
-            "img" : "assets/images/napolitan.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fnapolitan.jpg?alt=media&token=cc808d6d-33f0-4e8c-b24c-02a94f80e528",
             "price" : 36.7
           },
           {
             "name": "Daging Sapi",
-            "img" : "assets/images/steak.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fsteak.jpg?alt=media&token=51b0753c-f7e8-4818-b3ee-b40fac461960",
             "price" : 76.7
           },
           {
             "name": "Bebek crepes",
-            "img" : "assets/images/bebek.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fbebek.jpg?alt=media&token=6b4cf3aa-f41f-4454-bcc5-c305e13536ab",
             "price" : 74.3
           },
           {
             "name": "Sup Kohlrabi",
-            "img" : "assets/images/supKohlrabi.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FsupKohlrabi.jpg?alt=media&token=bec5fc0e-7a12-4262-8c0d-b18995211a7c",
             "price" : 32.7
           },
           {
             "name": "Ikan teri dan roti",
-            "img" : "assets/images/bread.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fbread.jpg?alt=media&token=3fff0351-5dee-47ef-a271-3763ececec4a",
             "price" : 15.9
           },
           {
             "name": "Tumis leek",
-            "img" : "assets/images/tumis.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Ftumis.jpg?alt=media&token=193549e0-5276-41e1-ba7a-e7be1e08bc25",
             "price" : 26.4
           }
         ],
         "drinks": [
           {
             "name": "Kopi espresso",
-            "img" : "assets/images/expresso.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fexpresso.jpg?alt=media&token=02ea64a9-a7a1-49ae-b7ba-a44b7cb359af",
             "price" : 12.8
           },
           {
             "name": "Coklat panas",
-            "img" : "assets/images/hotChocolate.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FhotChocolate.jpg?alt=media&token=cd3457ca-960e-4b81-99a5-852efe99c842",
             "price" : 15.4
           },
           {
             "name": "Jus jeruk",
-            "img" : "assets/images/jusJeruk.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FjusJeruk.jpg?alt=media&token=9aa19fea-503c-4986-b9c5-1201f8968209",
             "price" : 12.3
           },
           {
             "name": "Jus apel",
-            "img" : "assets/images/jusApel.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FjusApel.jpg?alt=media&token=530b71ab-bb1a-4d16-b199-6d5a72d65c1f",
             "price" : 12.3
           },
           {
             "name": "Minuman soda",
-            "img" : "assets/images/iceSoda.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FiceSoda.jpg?alt=media&token=4522b7fb-9b39-43f0-bb7e-37a51b27be7c",
             "price" : 19.5
           },
           {
             "name": "Air",
-            "img" : "assets/images/water.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fwater.jpg?alt=media&token=41792e01-ee28-43d7-b276-07b9cf28fb5e",
             "price" : 5.5
           },
           {
             "name": "Es kopi",
-            "img" : "assets/images/iceCoffe.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FiceCoffe.jpg?alt=media&token=2836c4c9-4fc3-4448-873d-1c65d5397199",
             "price" : 10.5
           }
         ]
@@ -334,134 +334,134 @@
         "foods": [
           {
             "name": "Salad lengkeng",
-            "img" : "assets/images/salad.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fsalad.jpg?alt=media&token=498538b8-8b7e-407b-8ddb-9bbb5035eeb2",
             "price" : 22.8
           },
           {
             "name": "Kari terong",
-            "img" : "assets/images/curryEggplant.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FcurryEggplant.jpg?alt=media&token=59a556e4-7338-48d9-854a-648fd29d1027",
             "price" : 24.7
           },
           {
             "name": "Sosis squash dan mint",
-            "img" : "assets/images/sosis.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fsosis.jpg?alt=media&token=65771f44-f640-4de1-9e83-7b47c48a092f",
             "price" : 36.7
           },
           {
             "name": "Napolitana",
-            "img" : "assets/images/napolitan.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fnapolitan.jpg?alt=media&token=cc808d6d-33f0-4e8c-b24c-02a94f80e528",
             "price" : 36.7
           },
           {
             "name": "Salad yuzu",
-            "img" : "assets/images/saladYuzu.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FsaladYuzu.jpg?alt=media&token=2d64ba8b-8ae3-4bb5-aabc-d2a2eb6c49fd",
             "price" : 25.9
           },
           {
             "name": "Tumis leek",
-            "img" : "assets/images/tumis.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Ftumis.jpg?alt=media&token=193549e0-5276-41e1-ba7a-e7be1e08bc25",
             "price" : 26.4
           },
           {
             "name": "Ikan teri dan roti",
-            "img" : "assets/images/bread.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fbread.jpg?alt=media&token=3fff0351-5dee-47ef-a271-3763ececec4a",
             "price" : 15.9
           },
           {
             "name": "Kari kacang dan telur",
-            "img" : "assets/images/cury.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fcury.jpg?alt=media&token=66c15e69-e424-46dc-ad5b-c75b3aabcf4f",
             "price" : 32.8
           },
           {
             "name": "Toastie salmon",
-            "img" : "assets/images/salmon.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fsalmon.jpg?alt=media&token=3bf2090e-33ca-488d-8b0c-d1360a8668ea",
             "price" : 41.7
           },
           {
             "name": "Bebek crepes",
-            "img" : "assets/images/bebek.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fbebek.jpg?alt=media&token=6b4cf3aa-f41f-4454-bcc5-c305e13536ab",
             "price" : 74.3
           },
           {
             "name": "Paket rosemary",
-            "img" : "assets/images/rosemarry.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Frosemarry.jpg?alt=media&token=553cb3c9-5644-4929-b2e4-b90dcc1dbf65",
             "price" : 122.8
           },
           {
             "name": "Sup Kohlrabi",
-            "img" : "assets/images/supKohlrabi.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FsupKohlrabi.jpg?alt=media&token=bec5fc0e-7a12-4262-8c0d-b18995211a7c",
             "price" : 32.7
           },
           {
             "name": "roket penne",
-            "img" : "assets/images/pie.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fpie.jpg?alt=media&token=fc28153b-2e49-4482-ba91-f29581920547",
             "price" : 62.3
           }
         ],
         "drinks": [
           {
             "name": "Minuman soda",
-            "img" : "assets/images/iceSoda.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FiceSoda.jpg?alt=media&token=4522b7fb-9b39-43f0-bb7e-37a51b27be7c",
             "price" : 19.5
           },
           {
             "name": "Es teh",
-            "img" : "assets/images/iceTea.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FiceTea.jpg?alt=media&token=c4ef2748-dc5a-4ef7-bfdd-3f3864682a98",
             "price" : 8.8
           },
           {
             "name": "Jus tomat",
-            "img" : "assets/images/jusTomat.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FjusTomat.jpg?alt=media&token=c9b1cb4a-9b16-495d-9010-abc634c71a2c",
             "price" : 12.5
           },
           {
             "name": "Coklat panas",
-            "img" : "assets/images/hotChocolate.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FhotChocolate.jpg?alt=media&token=cd3457ca-960e-4b81-99a5-852efe99c842",
             "price" : 15.4
           },
           {
             "name": "Jus jeruk",
-            "img" : "assets/images/jusJeruk.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FjusJeruk.jpg?alt=media&token=9aa19fea-503c-4986-b9c5-1201f8968209",
             "price" : 12.3
           },
           {
             "name": "Air",
-            "img" : "assets/images/water.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fwater.jpg?alt=media&token=41792e01-ee28-43d7-b276-07b9cf28fb5e",
             "price" : 5.5
           },
           {
             "name": "Kopi espresso",
-            "img" : "assets/images/expresso.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fexpresso.jpg?alt=media&token=02ea64a9-a7a1-49ae-b7ba-a44b7cb359af",
             "price" : 12.8
           },
           {
             "name": "Es kopi",
-            "img" : "assets/images/iceCoffe.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FiceCoffe.jpg?alt=media&token=2836c4c9-4fc3-4448-873d-1c65d5397199",
             "price" : 10.5
           },
           {
             "name": "Sirup",
-            "img" : "assets/images/sirup.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fsirup.jpg?alt=media&token=40480f0f-fb31-4ee5-ba97-e8d5f3363940",
             "price" : 11.6
           },
           {
             "name": "Jus alpukat",
-            "img" : "assets/images/jusAlpukat.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FjusAlpukat.jpg?alt=media&token=ae8ebfa5-b2aa-468b-afb2-5dec2775a0b2",
             "price" : 12.3
           },
           {
             "name": "Jus mangga",
-            "img" : "assets/images/jusMangga.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FjusMangga.jpg?alt=media&token=05a3602c-a6e3-4cdb-81d5-701d30d36985",
             "price" : 12.3
           },
           {
             "name": "Jus apel",
-            "img" : "assets/images/jusApel.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FjusApel.jpg?alt=media&token=530b71ab-bb1a-4d16-b199-6d5a72d65c1f",
             "price" : 12.3
           },
           {
             "name": "Es krim",
-            "img" : "assets/images/iceCream2.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FiceCream2.jpg?alt=media&token=af12c282-328d-40fc-86fc-1dc2fb20bdf2",
             "price" : 12.1
           }
         ]
@@ -478,94 +478,94 @@
         "foods": [
           {
             "name": "Daging Sapi",
-            "img" : "assets/images/steak.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fsteak.jpg?alt=media&token=51b0753c-f7e8-4818-b3ee-b40fac461960",
             "price" : 76.7
           },
           {
             "name": "Bebek crepes",
-            "img" : "assets/images/bebek.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fbebek.jpg?alt=media&token=6b4cf3aa-f41f-4454-bcc5-c305e13536ab",
             "price" : 74.3
           },
           {
             "name": "Toastie salmon",
-            "img" : "assets/images/salmon.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fsalmon.jpg?alt=media&token=3bf2090e-33ca-488d-8b0c-d1360a8668ea",
             "price" : 41.7
           },
           {
             "name": "Kari terong",
-            "img" : "assets/images/curryEggplant.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FcurryEggplant.jpg?alt=media&token=59a556e4-7338-48d9-854a-648fd29d1027",
             "price" : 24.7
           },
           {
             "name": "Paket rosemary",
-            "img" : "assets/images/rosemarry.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Frosemarry.jpg?alt=media&token=553cb3c9-5644-4929-b2e4-b90dcc1dbf65",
             "price" : 122.8
           },
           {
             "name": "Salad lengkeng",
-            "img" : "assets/images/salad.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fsalad.jpg?alt=media&token=498538b8-8b7e-407b-8ddb-9bbb5035eeb2",
             "price" : 22.8
           }
         ],
         "drinks": [
           {
             "name": "Sirup",
-            "img" : "assets/images/sirup.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fsirup.jpg?alt=media&token=40480f0f-fb31-4ee5-ba97-e8d5f3363940",
             "price" : 11.6
           },
           {
             "name": "Jus mangga",
-            "img" : "assets/images/jusMangga.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FjusMangga.jpg?alt=media&token=05a3602c-a6e3-4cdb-81d5-701d30d36985",
             "price" : 12.3
           },
           {
             "name": "Es teh",
-            "img" : "assets/images/iceTea.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FiceTea.jpg?alt=media&token=c4ef2748-dc5a-4ef7-bfdd-3f3864682a98",
             "price" : 8.8
           },
           {
             "name": "Jus jeruk",
-            "img" : "assets/images/jusJeruk.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FjusJeruk.jpg?alt=media&token=9aa19fea-503c-4986-b9c5-1201f8968209",
             "price" : 12.3
           },
           {
             "name": "Teh manis",
-            "img" : "assets/images/hotTea.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FhotTea.jpg?alt=media&token=00ad703c-c70c-48d8-92a5-484cde4d01c4",
             "price" : 8.8
           },
           {
             "name": "Kopi espresso",
-            "img" : "assets/images/expresso.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fexpresso.jpg?alt=media&token=02ea64a9-a7a1-49ae-b7ba-a44b7cb359af",
             "price" : 12.8
           },
           {
             "name": "Es kopi",
-            "img" : "assets/images/iceCoffe.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FiceCoffe.jpg?alt=media&token=2836c4c9-4fc3-4448-873d-1c65d5397199",
             "price" : 10.5
           },
           {
             "name": "Minuman soda",
-            "img" : "assets/images/iceSoda.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FiceSoda.jpg?alt=media&token=4522b7fb-9b39-43f0-bb7e-37a51b27be7c",
             "price" : 19.5
           },
           {
             "name": "Jus alpukat",
-            "img" : "assets/images/jusAlpukat.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FjusAlpukat.jpg?alt=media&token=ae8ebfa5-b2aa-468b-afb2-5dec2775a0b2",
             "price" : 12.3
           },
           {
             "name": "Jus tomat",
-            "img" : "assets/images/jusTomat.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FjusTomat.jpg?alt=media&token=c9b1cb4a-9b16-495d-9010-abc634c71a2c",
             "price" : 12.5
           },
           {
             "name": "Es krim",
-            "img" : "assets/images/iceCream2.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FiceCream2.jpg?alt=media&token=af12c282-328d-40fc-86fc-1dc2fb20bdf2",
             "price" : 12.1
           },
           {
             "name": "Coklat panas",
-            "img" : "assets/images/hotChocolate.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FhotChocolate.jpg?alt=media&token=cd3457ca-960e-4b81-99a5-852efe99c842",
             "price" : 15.4
           }
         ]
@@ -582,79 +582,79 @@
         "foods": [
           {
             "name": "Kari kacang dan telur",
-            "img" : "assets/images/cury.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fcury.jpg?alt=media&token=66c15e69-e424-46dc-ad5b-c75b3aabcf4f",
             "price" : 32.8
           },
           {
             "name": "Toastie salmon",
-            "img" : "assets/images/salmon.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fsalmon.jpg?alt=media&token=3bf2090e-33ca-488d-8b0c-d1360a8668ea",
             "price" : 41.7
           },
           {
             "name": "Matzo farfel",
-            "img" : "assets/images/matzo.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fmatzo.jpg?alt=media&token=563590e8-cef6-4c78-a685-9140b9c77d51",
             "price" : 32.7
           },
           {
             "name": "Napolitana",
-            "img" : "assets/images/napolitan.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fnapolitan.jpg?alt=media&token=cc808d6d-33f0-4e8c-b24c-02a94f80e528",
             "price" : 36.7
           },
           {
             "name": "Salad yuzu",
-            "img" : "assets/images/saladYuzu.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FsaladYuzu.jpg?alt=media&token=2d64ba8b-8ae3-4bb5-aabc-d2a2eb6c49fd",
             "price" : 25.9
           },
           {
             "name": "Sosis squash dan mint",
-            "img" : "assets/images/sosis.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fsosis.jpg?alt=media&token=65771f44-f640-4de1-9e83-7b47c48a092f",
             "price" : 36.7
           },
           {
             "name": "Daging Sapi",
-            "img" : "assets/images/steak.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fsteak.jpg?alt=media&token=51b0753c-f7e8-4818-b3ee-b40fac461960",
             "price" : 76.7
           }
         ],
         "drinks": [
           {
             "name": "Minuman soda",
-            "img" : "assets/images/iceSoda.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FiceSoda.jpg?alt=media&token=4522b7fb-9b39-43f0-bb7e-37a51b27be7c",
             "price" : 19.5
           },
           {
             "name": "Jus apel",
-            "img" : "assets/images/jusApel.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FjusApel.jpg?alt=media&token=530b71ab-bb1a-4d16-b199-6d5a72d65c1f",
             "price" : 12.3
           },
           {
             "name": "Air",
-            "img" : "assets/images/water.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fwater.jpg?alt=media&token=41792e01-ee28-43d7-b276-07b9cf28fb5e",
             "price" : 5.5
           },
           {
             "name": "Jus jeruk",
-            "img" : "assets/images/jusJeruk.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FjusJeruk.jpg?alt=media&token=9aa19fea-503c-4986-b9c5-1201f8968209",
             "price" : 12.3
           },
           {
             "name": "Es krim",
-            "img" : "assets/images/iceCream2.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FiceCream2.jpg?alt=media&token=af12c282-328d-40fc-86fc-1dc2fb20bdf2",
             "price" : 12.1
           },
           {
             "name": "Es teh",
-            "img" : "assets/images/iceTea.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FiceTea.jpg?alt=media&token=c4ef2748-dc5a-4ef7-bfdd-3f3864682a98",
             "price" : 8.8
           },
           {
             "name": "Jus tomat",
-            "img" : "assets/images/jusTomat.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FjusTomat.jpg?alt=media&token=c9b1cb4a-9b16-495d-9010-abc634c71a2c",
             "price" : 12.5
           },
           {
             "name": "Coklat panas",
-            "img" : "assets/images/hotChocolate.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FhotChocolate.jpg?alt=media&token=cd3457ca-960e-4b81-99a5-852efe99c842",
             "price" : 15.4
           }
         ]
@@ -671,104 +671,104 @@
         "foods": [
           {
             "name": "Sup Kohlrabi",
-            "img" : "assets/images/supKohlrabi.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FsupKohlrabi.jpg?alt=media&token=bec5fc0e-7a12-4262-8c0d-b18995211a7c",
             "price" : 32.7
           },
           {
             "name": "Paket rosemary",
-            "img" : "assets/images/rosemarry.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Frosemarry.jpg?alt=media&token=553cb3c9-5644-4929-b2e4-b90dcc1dbf65",
             "price" : 122.8
           },
           {
             "name": "Tumis leek",
-            "img" : "assets/images/tumis.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Ftumis.jpg?alt=media&token=193549e0-5276-41e1-ba7a-e7be1e08bc25",
             "price" : 26.4
           },
           {
             "name": "Kari terong",
-            "img" : "assets/images/curryEggplant.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FcurryEggplant.jpg?alt=media&token=59a556e4-7338-48d9-854a-648fd29d1027",
             "price" : 24.7
           },
           {
             "name": "roket penne",
-            "img" : "assets/images/pie.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fpie.jpg?alt=media&token=fc28153b-2e49-4482-ba91-f29581920547",
             "price" : 62.3
           },
           {
             "name": "Sosis squash dan mint",
-            "img" : "assets/images/sosis.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fsosis.jpg?alt=media&token=65771f44-f640-4de1-9e83-7b47c48a092f",
             "price" : 36.7
           },
           {
             "name": "Salad lengkeng",
-            "img" : "assets/images/salad.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fsalad.jpg?alt=media&token=498538b8-8b7e-407b-8ddb-9bbb5035eeb2",
             "price" : 22.8
           }
         ],
         "drinks": [
           {
             "name": "Es kopi",
-            "img" : "assets/images/iceCoffe.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FiceCoffe.jpg?alt=media&token=2836c4c9-4fc3-4448-873d-1c65d5397199",
             "price" : 10.5
           },
           {
             "name": "Air",
-            "img" : "assets/images/water.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fwater.jpg?alt=media&token=41792e01-ee28-43d7-b276-07b9cf28fb5e",
             "price" : 5.5
           },
           {
             "name": "Jus apel",
-            "img" : "assets/images/jusApel.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FjusApel.jpg?alt=media&token=530b71ab-bb1a-4d16-b199-6d5a72d65c1f",
             "price" : 12.3
           },
           {
             "name": "Kopi espresso",
-            "img" : "assets/images/expresso.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fexpresso.jpg?alt=media&token=02ea64a9-a7a1-49ae-b7ba-a44b7cb359af",
             "price" : 12.8
           },
           {
             "name": "Teh manis",
-            "img" : "assets/images/hotTea.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FhotTea.jpg?alt=media&token=00ad703c-c70c-48d8-92a5-484cde4d01c4",
             "price" : 8.8
           },
           {
             "name": "Jus jeruk",
-            "img" : "assets/images/jusJeruk.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FjusJeruk.jpg?alt=media&token=9aa19fea-503c-4986-b9c5-1201f8968209",
             "price" : 12.3
           },
           {
             "name": "Es teh",
-            "img" : "assets/images/iceTea.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FiceTea.jpg?alt=media&token=c4ef2748-dc5a-4ef7-bfdd-3f3864682a98",
             "price" : 8.8
           },
           {
             "name": "Coklat panas",
-            "img" : "assets/images/hotChocolate.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FhotChocolate.jpg?alt=media&token=cd3457ca-960e-4b81-99a5-852efe99c842",
             "price" : 15.4
           },
           {
             "name": "Jus mangga",
-            "img" : "assets/images/jusMangga.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FjusMangga.jpg?alt=media&token=05a3602c-a6e3-4cdb-81d5-701d30d36985",
             "price" : 12.3
           },
           {
             "name": "Es krim",
-            "img" : "assets/images/iceCream2.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FiceCream2.jpg?alt=media&token=af12c282-328d-40fc-86fc-1dc2fb20bdf2",
             "price" : 12.1
           },
           {
             "name": "Jus alpukat",
-            "img" : "assets/images/jusAlpukat.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FjusAlpukat.jpg?alt=media&token=ae8ebfa5-b2aa-468b-afb2-5dec2775a0b2",
             "price" : 12.3
           },
           {
             "name": "Sirup",
-            "img" : "assets/images/sirup.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fsirup.jpg?alt=media&token=40480f0f-fb31-4ee5-ba97-e8d5f3363940",
             "price" : 11.6
           },
           {
             "name": "Minuman soda",
-            "img" : "assets/images/iceSoda.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FiceSoda.jpg?alt=media&token=4522b7fb-9b39-43f0-bb7e-37a51b27be7c",
             "price" : 19.5
           }
         ]
@@ -785,64 +785,64 @@
         "foods": [
           {
             "name": "Sup Kohlrabi",
-            "img" : "assets/images/supKohlrabi.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FsupKohlrabi.jpg?alt=media&token=bec5fc0e-7a12-4262-8c0d-b18995211a7c",
             "price" : 32.7
           },
           {
             "name": "Toastie salmon",
-            "img" : "assets/images/salmon.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fsalmon.jpg?alt=media&token=3bf2090e-33ca-488d-8b0c-d1360a8668ea",
             "price" : 41.7
           },
           {
             "name": "Tumis leek",
-            "img" : "assets/images/tumis.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Ftumis.jpg?alt=media&token=193549e0-5276-41e1-ba7a-e7be1e08bc25",
             "price" : 26.4
           },
           {
             "name": "Ikan teri dan roti",
-            "img" : "assets/images/bread.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fbread.jpg?alt=media&token=3fff0351-5dee-47ef-a271-3763ececec4a",
             "price" : 15.9
           },
           {
             "name": "Kari kacang dan telur",
-            "img" : "assets/images/cury.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fcury.jpg?alt=media&token=66c15e69-e424-46dc-ad5b-c75b3aabcf4f",
             "price" : 32.8
           }
         ],
         "drinks": [
           {
             "name": "Jus alpukat",
-            "img" : "assets/images/jusAlpukat.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FjusAlpukat.jpg?alt=media&token=ae8ebfa5-b2aa-468b-afb2-5dec2775a0b2",
             "price" : 12.3
           },
           {
             "name": "Jus jeruk",
-            "img" : "assets/images/jusJeruk.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FjusJeruk.jpg?alt=media&token=9aa19fea-503c-4986-b9c5-1201f8968209",
             "price" : 12.3
           },
           {
             "name": "Coklat panas",
-            "img" : "assets/images/hotChocolate.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FhotChocolate.jpg?alt=media&token=cd3457ca-960e-4b81-99a5-852efe99c842",
             "price" : 15.4
           },
           {
             "name": "Es teh",
-            "img" : "assets/images/iceTea.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FiceTea.jpg?alt=media&token=c4ef2748-dc5a-4ef7-bfdd-3f3864682a98",
             "price" : 8.8
           },
           {
             "name": "Teh manis",
-            "img" : "assets/images/hotTea.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FhotTea.jpg?alt=media&token=00ad703c-c70c-48d8-92a5-484cde4d01c4",
             "price" : 8.8
           },
           {
             "name": "Es krim",
-            "img" : "assets/images/iceCream2.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FiceCream2.jpg?alt=media&token=af12c282-328d-40fc-86fc-1dc2fb20bdf2",
             "price" : 12.1
           },
           {
             "name": "Jus mangga",
-            "img" : "assets/images/jusMangga.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FjusMangga.jpg?alt=media&token=05a3602c-a6e3-4cdb-81d5-701d30d36985",
             "price" : 12.3
           }
         ]
@@ -859,89 +859,89 @@
         "foods": [
           {
             "name": "Tumis leek",
-            "img" : "assets/images/tumis.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Ftumis.jpg?alt=media&token=193549e0-5276-41e1-ba7a-e7be1e08bc25",
             "price" : 26.4
           },
           {
             "name": "Paket rosemary",
-            "img" : "assets/images/rosemarry.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Frosemarry.jpg?alt=media&token=553cb3c9-5644-4929-b2e4-b90dcc1dbf65",
             "price" : 122.8
           },
           {
             "name": "roket penne",
-            "img" : "assets/images/pie.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fpie.jpg?alt=media&token=fc28153b-2e49-4482-ba91-f29581920547",
             "price" : 62.3
           },
           {
             "name": "Daging Sapi",
-            "img" : "assets/images/steak.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fsteak.jpg?alt=media&token=51b0753c-f7e8-4818-b3ee-b40fac461960",
             "price" : 76.7
           },
           {
             "name": "Napolitana",
-            "img" : "assets/images/napolitan.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fnapolitan.jpg?alt=media&token=cc808d6d-33f0-4e8c-b24c-02a94f80e528",
             "price" : 36.7
           },
           {
             "name": "Salad lengkeng",
-            "img" : "assets/images/salad.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fsalad.jpg?alt=media&token=498538b8-8b7e-407b-8ddb-9bbb5035eeb2",
             "price" : 22.8
           },
           {
             "name": "Matzo farfel",
-            "img" : "assets/images/matzo.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fmatzo.jpg?alt=media&token=563590e8-cef6-4c78-a685-9140b9c77d51",
             "price" : 32.7
           },
           {
             "name": "Kari kacang dan telur",
-            "img" : "assets/images/cury.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fcury.jpg?alt=media&token=66c15e69-e424-46dc-ad5b-c75b3aabcf4f",
             "price" : 32.8
           },
           {
             "name": "Sosis squash dan mint",
-            "img" : "assets/images/sosis.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fsosis.jpg?alt=media&token=65771f44-f640-4de1-9e83-7b47c48a092f",
             "price" : 36.7
           },
           {
             "name": "Kari terong",
-            "img" : "assets/images/curryEggplant.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FcurryEggplant.jpg?alt=media&token=59a556e4-7338-48d9-854a-648fd29d1027",
             "price" : 24.7
           }
         ],
         "drinks": [
           {
             "name": "Jus apel",
-            "img" : "assets/images/jusApel.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FjusApel.jpg?alt=media&token=530b71ab-bb1a-4d16-b199-6d5a72d65c1f",
             "price" : 12.3
           },
           {
             "name": "Air",
-            "img" : "assets/images/water.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fwater.jpg?alt=media&token=41792e01-ee28-43d7-b276-07b9cf28fb5e",
             "price" : 5.5
           },
           {
             "name": "Teh manis",
-            "img" : "assets/images/hotTea.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FhotTea.jpg?alt=media&token=00ad703c-c70c-48d8-92a5-484cde4d01c4",
             "price" : 8.8
           },
           {
             "name": "Jus mangga",
-            "img" : "assets/images/jusMangga.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FjusMangga.jpg?alt=media&token=05a3602c-a6e3-4cdb-81d5-701d30d36985",
             "price" : 12.3
           },
           {
             "name": "Es teh",
-            "img" : "assets/images/iceTea.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FiceTea.jpg?alt=media&token=c4ef2748-dc5a-4ef7-bfdd-3f3864682a98",
             "price" : 8.8
           },
           {
             "name": "Jus alpukat",
-            "img" : "assets/images/jusAlpukat.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FjusAlpukat.jpg?alt=media&token=ae8ebfa5-b2aa-468b-afb2-5dec2775a0b2",
             "price" : 12.3
           },
           {
             "name": "Jus tomat",
-            "img" : "assets/images/jusTomat.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FjusTomat.jpg?alt=media&token=c9b1cb4a-9b16-495d-9010-abc634c71a2c",
             "price" : 12.5
           }
         ]
@@ -958,129 +958,129 @@
         "foods": [
           {
             "name": "Matzo farfel",
-            "img" : "assets/images/matzo.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fmatzo.jpg?alt=media&token=563590e8-cef6-4c78-a685-9140b9c77d51",
             "price" : 32.7
           },
           {
             "name": "Tumis leek",
-            "img" : "assets/images/tumis.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Ftumis.jpg?alt=media&token=193549e0-5276-41e1-ba7a-e7be1e08bc25",
             "price" : 26.4
           },
           {
             "name": "Daging Sapi",
-            "img" : "assets/images/steak.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fsteak.jpg?alt=media&token=51b0753c-f7e8-4818-b3ee-b40fac461960",
             "price" : 76.7
           },
           {
             "name": "Napolitana",
-            "img" : "assets/images/napolitan.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fnapolitan.jpg?alt=media&token=cc808d6d-33f0-4e8c-b24c-02a94f80e528",
             "price" : 36.7
           },
           {
             "name": "Kari kacang dan telur",
-            "img" : "assets/images/cury.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fcury.jpg?alt=media&token=66c15e69-e424-46dc-ad5b-c75b3aabcf4f",
             "price" : 32.8
           },
           {
             "name": "Kari terong",
-            "img" : "assets/images/curryEggplant.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FcurryEggplant.jpg?alt=media&token=59a556e4-7338-48d9-854a-648fd29d1027",
             "price" : 24.7
           },
           {
             "name": "Ikan teri dan roti",
-            "img" : "assets/images/bread.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fbread.jpg?alt=media&token=3fff0351-5dee-47ef-a271-3763ececec4a",
             "price" : 15.9
           },
           {
             "name": "Bebek crepes",
-            "img" : "assets/images/bebek.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fbebek.jpg?alt=media&token=6b4cf3aa-f41f-4454-bcc5-c305e13536ab",
             "price" : 74.3
           },
           {
             "name": "roket penne",
-            "img" : "assets/images/pie.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fpie.jpg?alt=media&token=fc28153b-2e49-4482-ba91-f29581920547",
             "price" : 62.3
           },
           {
             "name": "Salad lengkeng",
-            "img" : "assets/images/salad.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fsalad.jpg?alt=media&token=498538b8-8b7e-407b-8ddb-9bbb5035eeb2",
             "price" : 22.8
           },
           {
             "name": "Paket rosemary",
-            "img" : "assets/images/rosemarry.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Frosemarry.jpg?alt=media&token=553cb3c9-5644-4929-b2e4-b90dcc1dbf65",
             "price" : 122.8
           },
           {
             "name": "Salad yuzu",
-            "img" : "assets/images/saladYuzu.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FsaladYuzu.jpg?alt=media&token=2d64ba8b-8ae3-4bb5-aabc-d2a2eb6c49fd",
             "price" : 25.9
           }
         ],
         "drinks": [
           {
             "name": "Coklat panas",
-            "img" : "assets/images/hotChocolate.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FhotChocolate.jpg?alt=media&token=cd3457ca-960e-4b81-99a5-852efe99c842",
             "price" : 15.4
           },
           {
             "name": "Jus apel",
-            "img" : "assets/images/jusApel.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FjusApel.jpg?alt=media&token=530b71ab-bb1a-4d16-b199-6d5a72d65c1f",
             "price" : 12.3
           },
           {
             "name": "Sirup",
-            "img" : "assets/images/sirup.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fsirup.jpg?alt=media&token=40480f0f-fb31-4ee5-ba97-e8d5f3363940",
             "price" : 11.6
           },
           {
             "name": "Kopi espresso",
-            "img" : "assets/images/expresso.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fexpresso.jpg?alt=media&token=02ea64a9-a7a1-49ae-b7ba-a44b7cb359af",
             "price" : 12.8
           },
           {
             "name": "Teh manis",
-            "img" : "assets/images/hotTea.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FhotTea.jpg?alt=media&token=00ad703c-c70c-48d8-92a5-484cde4d01c4",
             "price" : 8.8
           },
           {
             "name": "Es teh",
-            "img" : "assets/images/iceTea.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FiceTea.jpg?alt=media&token=c4ef2748-dc5a-4ef7-bfdd-3f3864682a98",
             "price" : 8.8
           },
           {
             "name": "Es kopi",
-            "img" : "assets/images/iceCoffe.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FiceCoffe.jpg?alt=media&token=2836c4c9-4fc3-4448-873d-1c65d5397199",
             "price" : 10.5
           },
           {
             "name": "Jus jeruk",
-            "img" : "assets/images/jusJeruk.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FjusJeruk.jpg?alt=media&token=9aa19fea-503c-4986-b9c5-1201f8968209",
             "price" : 12.3
           },
           {
             "name": "Air",
-            "img" : "assets/images/water.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fwater.jpg?alt=media&token=41792e01-ee28-43d7-b276-07b9cf28fb5e",
             "price" : 5.5
           },
           {
             "name": "Jus mangga",
-            "img" : "assets/images/jusMangga.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FjusMangga.jpg?alt=media&token=05a3602c-a6e3-4cdb-81d5-701d30d36985",
             "price" : 12.3
           },
           {
             "name": "Jus tomat",
-            "img" : "assets/images/jusTomat.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FjusTomat.jpg?alt=media&token=c9b1cb4a-9b16-495d-9010-abc634c71a2c",
             "price" : 12.5
           },
           {
             "name": "Minuman soda",
-            "img" : "assets/images/iceSoda.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FiceSoda.jpg?alt=media&token=4522b7fb-9b39-43f0-bb7e-37a51b27be7c",
             "price" : 19.5
           },
           {
             "name": "Es krim",
-            "img" : "assets/images/iceCream2.jpg",
+            "img" : "https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2FiceCream2.jpg?alt=media&token=af12c282-328d-40fc-86fc-1dc2fb20bdf2",
             "price" : 12.1
           }
         ]

@@ -19,7 +19,7 @@ class LandingPage3 extends StatelessWidget {
             height: _size.height,
             width: _size.width,
             child: const Image(
-              image: AssetImage('assets/images/jus.jpg'),
+              image: NetworkImage('https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fjus.jpg?alt=media&token=b5caf178-d5f6-49fc-9ef8-cde968302983'),
               fit: BoxFit.cover,
             ),
           ),

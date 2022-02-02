@@ -54,7 +54,7 @@ class _RegisterPageState extends State<RegisterPage> {
                             height: _size.height,
                             width: _size.width,
                             child: const Image(
-                              image: AssetImage('assets/images/chef.jpg'),
+                              image: NetworkImage('https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fchef.jpg?alt=media&token=8f7dadd4-48a5-462e-9ab5-083b1ce13337'),
                               fit: BoxFit.cover,
                             ),
                           ),

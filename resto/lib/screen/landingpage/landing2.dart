@@ -21,7 +21,7 @@ class LandingPage2 extends StatelessWidget {
             height: _size.height,
             width: _size.width,
             child: const Image(
-              image: AssetImage('assets/images/barista.jpg'),
+              image: NetworkImage('https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fbarista.jpg?alt=media&token=a2359f43-3992-46f6-9719-329065302bb8'),
               fit: BoxFit.cover,
             ),
           ),
