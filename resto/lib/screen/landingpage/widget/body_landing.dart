@@ -1,16 +1,25 @@
 import 'package:flutter/material.dart';
+import 'package:resto/screen/landingpage/landing2.dart';
 import 'package:resto/screen/loginregister/register.dart';
 import 'package:resto/style/style.dart';
 
-class LandingPage3 extends StatelessWidget {
-  static const routeName = '/landingPage3';
+class BodyLand extends StatelessWidget {
+  const BodyLand(
+      {Key? key,
+      required Size size,
+      required this.imgUrl,
+      required this.title,
+      required this.description})
+      : _size = size,
+        super(key: key);
 
-  const LandingPage3({Key? key}) : super(key: key);
+  final Size _size;
+  final String imgUrl;
+  final String title;
+  final String description;
 
   @override
   Widget build(BuildContext context) {
-    final Size _size = MediaQuery.of(context).size;
-
     return Scaffold(
       body: Stack(
         alignment: AlignmentDirectional.bottomCenter,
@@ -18,9 +27,10 @@ class LandingPage3 extends StatelessWidget {
           SizedBox(
             height: _size.height,
             width: _size.width,
-            child: const Image(
+            child: Image(
               image: NetworkImage(
-                  'https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fjus.jpg?alt=media&token=b5caf178-d5f6-49fc-9ef8-cde968302983'),
+                imgUrl,
+              ),
               fit: BoxFit.cover,
             ),
           ),
@@ -37,7 +47,7 @@ class LandingPage3 extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
                 Text(
-                  'A Juice a day',
+                  title,
                   style: lightTheme.headline4,
                   textAlign: TextAlign.center,
                 ),
@@ -45,8 +55,8 @@ class LandingPage3 extends StatelessWidget {
                   height: _size.height * 0.03,
                 ),
                 Text(
-                  'A fruit gives healthy mind but a fruit juice \n gives you a healthy body too',
-                  style: lightTheme.bodyText2,
+                  description,
+                  style: lightTheme.bodyText1,
                   textAlign: TextAlign.center,
                 ),
                 SizedBox(
@@ -75,7 +85,7 @@ class LandingPage3 extends StatelessWidget {
                           ),
                           onPressed: () {
                             Navigator.pushReplacementNamed(
-                                context, RegisterPage.routeName);
+                                context, LandingPage2.routeName);
                           },
                           child: const Text('Next'),
                         ),

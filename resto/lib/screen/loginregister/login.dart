@@ -51,7 +51,8 @@ class _LoginPageState extends State<LoginPage> {
                             height: _size.height,
                             width: _size.width,
                             child: const Image(
-                              image: NetworkImage('https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fwaiter.jpg?alt=media&token=e6d14833-d5d2-44f2-9f2d-faadfa4e42fa'),
+                              image: NetworkImage(
+                                  'https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fwaiter.jpg?alt=media&token=e6d14833-d5d2-44f2-9f2d-faadfa4e42fa'),
                               fit: BoxFit.cover,
                             ),
                           ),
@@ -173,6 +174,10 @@ class _LoginPageState extends State<LoginPage> {
                                                             lottie:
                                                                 'assets/json/fail2.json',
                                                           ));
+                                                } else {
+                                                  setState(() {
+                                                    loading = false;
+                                                  });
                                                 }
                                               }
                                             },

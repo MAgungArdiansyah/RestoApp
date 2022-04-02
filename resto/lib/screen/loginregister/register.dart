@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:resto/screen/accountpage/account_page.dart';
+import 'package:resto/screen/homepage/home_page.dart';
 import 'package:resto/screen/loginregister/widget/blur.dart';
 import 'package:resto/screen/loginregister/widget/custom_dialog.dart';
 import 'package:resto/screen/loginregister/widget/loading.dart';
@@ -39,7 +40,7 @@ class _RegisterPageState extends State<RegisterPage> {
         stream: AuthServices().user,
         builder: (context, snapshot) {
           if (snapshot.hasData) {
-            return const AccountPage();
+            return const HomePage();
           } else {
             return loading
                 ? const Loading()
@@ -54,7 +55,8 @@ class _RegisterPageState extends State<RegisterPage> {
                             height: _size.height,
                             width: _size.width,
                             child: const Image(
-                              image: NetworkImage('https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fchef.jpg?alt=media&token=8f7dadd4-48a5-462e-9ab5-083b1ce13337'),
+                              image: NetworkImage(
+                                  'https://firebasestorage.googleapis.com/v0/b/resto-a13dc.appspot.com/o/images%2Fchef.jpg?alt=media&token=8f7dadd4-48a5-462e-9ab5-083b1ce13337'),
                               fit: BoxFit.cover,
                             ),
                           ),
