@@ -10,4 +10,6 @@ Aplikasi sederhana untuk menampilkan list restoran dan penerapan fitur firebase 
 **Home Page**
 
 ![Screenshot_1648860622](https://user-images.githubusercontent.com/55588249/161360289-8217515f-390b-4497-a7ec-c194780a5983.png)
+
+**User Page**
 ![Screenshot_1648860630](https://user-images.githubusercontent.com/55588249/161360293-5c00ce58-0d91-4cda-8e8f-ace4e5ad7eea.png)
