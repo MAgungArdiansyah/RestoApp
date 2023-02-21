@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
             .copyWith(primary: primaryColor, secondary: secondaryColor),
         elevatedButtonTheme: ElevatedButtonThemeData(
             style: ElevatedButton.styleFrom(
-          primary: secondaryColor,
+          backgroundColor: secondaryColor,
         )),
         textButtonTheme: TextButtonThemeData(
             style: TextButton.styleFrom(
